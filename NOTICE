@@ -1,0 +1,11 @@
+Patent Diffusion Lab
+Project attribution: 郑州大学管理学院；姜红丙、李旭泽
+Affiliation: School of Management, Zhengzhou University
+
+The project code, documentation, and synthetic example generator are released
+under the Apache License, Version 2.0. See LICENSE.
+Third-party dependencies retain their own licenses.
+The software license does not grant rights to PATSTAT or other external datasets,
+user-supplied files, or the source manuscript. See DATA_POLICY.md.
+Repository design references are credited in docs/RELATED_PROJECTS.md.
+No implementation code from those reference repositories was incorporated.

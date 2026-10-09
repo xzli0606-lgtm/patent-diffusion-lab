@@ -1,0 +1,28 @@
+# Local execution and build products
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+outputs/
+.pytest_cache/
+.coverage
+htmlcov/
+# User inputs and generated tabular data
+data/
+*.parquet
+*.csv
+*.xlsx
+*.docx
+*.pdf
+# Credentials and machine state
+.env
+.env.*
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+# Historical private-archive regeneration helper (not a public entry point)
+/tools/extract_algorithms.py

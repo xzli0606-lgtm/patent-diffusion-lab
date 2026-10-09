@@ -1,0 +1,31 @@
+{
+  "contract_id": "STEP3_OPPORTUNITY_REFERENCE_CONTRACT_20260918_V1",
+  "status": "FROZEN_BEFORE_NEW_EFFECTS",
+  "authorization": "User explicitly authorized remote STEP3 execution on 2026-09-18",
+  "relationship": "New observational validation; does not amend STEP2, H4/H5, or stopped prior STEP3 mechanism contracts",
+  "scope": "Original 1:1 matched US focal DOCDB families, global external citing DOCDB families, frozen WIPO35 and complete 1Y/3Y/5Y windows",
+  "primary_label": "AI_related >= 0.50; no relabeling or rematching",
+  "primary_events": ["H3 original ever nonfocal arrival (diagnostic)", "H4 original receiving-field establishment", "H5 original post-establishment new-field expansion"],
+  "primary_estimand": "observed matched AI-minus-nonAI percentage-point difference minus expected matched difference under cross-fitted pooled field-set reference, conditional on each family's observed distinct citing-family dates",
+  "reference": {
+    "preserve": ["match_id", "AI indicator", "focal WIPO35", "grant and horizon dates", "ordered distinct citing family edge dates"],
+    "replace_only": "whole citing WIPO35 set of each classified edge",
+    "main_pool": "pooled AI and nonAI edges",
+    "folds": 5,
+    "fold_unit": "matched pair",
+    "fold_seed": 20260918,
+    "strata": ["focal WIPO35", "citation lag <=12, >12-36, >36-60 Gregorian months", "citation calendar 3-year block anchored at 2019"],
+    "minimum_support": {"edges": 200, "distinct_citing_families": 50},
+    "fallback_order": ["collapse calendar blocks within same focal field and lag band", "collapse lag bands within same focal field"],
+    "unsupported": "exclude full affected matched pair from reference estimand; report families, pairs, edges and original-sample coverage; never broaden across focal WIPO35",
+    "sensitivity": ["nonAI-only donor pool", "add focal grant 3-year cohort", "unique-WIPO35-edge-only", "cross-only edge"],
+    "multi_field": "draw full observed field-set mask; retain same-only, mixed and cross-only possibilities",
+    "same_day": "H4 requires a later date than the first arrival; H5 requires a date strictly after t0"
+  },
+  "simulation": {"initial_replicates": 2000, "increment": 2000, "maximum": 10000, "mcse_target_excess_percentage_points": 0.1, "seed": 20260919},
+  "inference": {"matched_pair_bootstrap_replicates": 2000, "bootstrap_seed": 20260920, "conditional_on_estimated_pool_interval": "primary", "rebuild_pool_interval": "required sensitivity", "six_H4_H5_window_tests": "two-sided Holm, exploratory"},
+  "secondary": {"B1": "descriptive opportunity-stratified rates only", "count_bins": ["0", "1", "2-4", "5-9", "10-19", "20-49", "50+"], "cross_field_edge_share": "only N>0 and separately report N=0", "high_confidence_label": "AI >=0.90 on original pairs; symmetric AI >=0.90 and nonAI <0.10 only if comparable scores for both"},
+  "report": ["observed raw rates and difference", "reference rates and expected difference", "excess difference and interval", "reference-reproduced share when denominator meaningful", "pair/family/edge coverage", "simulation MCSE", "all negative and unsupported results"],
+  "interpretation": "No causal direct effect, mediation share, mechanism decomposition or Shapley claim; reference-reproduced share is not a causal proportion explained",
+  "hard_stops": ["input hash or parity mismatch", "unclassified edge or pair gate violation", "unsupported strata without full coverage report", "simulation MCSE unmet at 10000 replicates", "remote output hash mismatch"]
+}

@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "patent-diffusion-lab"
+version = "0.1.0"
+description = "Reproducible matched patent-family citation milestones and opportunity references"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{name = "姜红丙"}, {name = "李旭泽"}]
+keywords = ["patents", "citation-diffusion", "scientometrics", "reproducibility"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy==1.26.4", "pandas==2.2.2", "scipy==1.13.1", "statsmodels==0.14.2", "numba==0.60.0", "pyarrow==24.0.0"]
+
+[project.optional-dependencies]
+dev = ["build>=1.2,<2", "twine>=6,<7"]
+
+[project.urls]
+Repository = "https://github.com/xzli0606-lgtm/patent-diffusion-lab"
+Issues = "https://github.com/xzli0606-lgtm/patent-diffusion-lab/issues"
+
+[project.scripts]
+patent-diffusion = "patent_diffusion.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["patent_diffusion*"]
+
+[tool.setuptools.package-data]
+patent_diffusion = ["reference_contract.json"]

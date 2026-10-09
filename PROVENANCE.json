@@ -1,0 +1,59 @@
+[
+  {
+    "source": "20261007数据复现\\src\\legacy\\26_run_h45_diffusion_establishment_expansion_v1.py",
+    "source_sha256": "8c2831cf12ac53a88d599247de157f8444f3298a1441e625ca68c8d376255a9f",
+    "target": "_study.py",
+    "functions": [
+      "effect_result",
+      "conditional_binary",
+      "conditional_count",
+      "fit_cox",
+      "holm",
+      "milestones"
+    ],
+    "changes": [
+      "kind=\"stable\").reset_index(drop=True)"
+    ]
+  },
+  {
+    "source": "20261007数据复现\\src\\legacy\\27_run_h45_piecewise_ph_trigger_v1.py",
+    "source_sha256": "12ab7e14f07045960089b90cc4e850269173993a983be69acf3912d26a099bfb",
+    "target": "_piecewise.py",
+    "functions": [
+      "anniversary",
+      "fit"
+    ],
+    "changes": []
+  },
+  {
+    "source": "20261007数据复现\\src\\legacy\\41_run_step3_opportunity_reference_v1.py",
+    "source_sha256": "64f24c60e27e5538cbb9209745820ee96a6dd992c2ef029a5794211e86fbeb25",
+    "target": "_reference.py",
+    "functions": [
+      "digest",
+      "outcomes",
+      "draw_and_score",
+      "build_pools",
+      "bootstrap_interval",
+      "main"
+    ],
+    "changes": [
+      "(np.concatenate(donor_arrays) if donor_arrays else np.empty(0, np.uint64)), unsupported"
+    ]
+  },
+  {
+    "source": "20261007数据复现\\src\\legacy\\46_run_step3_rebuild_pool_bootstrap_v1.py",
+    "source_sha256": "e9e51deb535a47413d1ee8445d18ecf4e13c46a863b7bc9e8540e6dee0928860",
+    "target": "_pool.py",
+    "functions": [
+      "digest",
+      "load_main",
+      "pools_with_pair",
+      "weighted_draw_and_score",
+      "main"
+    ],
+    "changes": [
+      "(np.concatenate(mask_parts) if mask_parts else np.empty(0, np.uint64)), (np.concatenate(pair_parts) if pair_parts else np.empty(0, np.int32)), unsupported"
+    ]
+  }
+]

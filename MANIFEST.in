@@ -1,0 +1,12 @@
+include README.md README.zh-CN.md LICENSE NOTICE AUTHORS.md CITATION.cff
+include DATA_POLICY.md CONTRIBUTING.md CHANGELOG.md ANALYSIS_DECISIONS.md PROVENANCE.json requirements.txt
+recursive-include docs *.md *.json
+recursive-include tests *.py
+recursive-include .github *.yml *.md
+include tools/check_release.py
+prune outputs
+prune data
+prune .venv
+prune build
+exclude tools/extract_algorithms.py
+global-exclude *.pyc *.parquet *.csv *.xlsx *.docx *.pdf

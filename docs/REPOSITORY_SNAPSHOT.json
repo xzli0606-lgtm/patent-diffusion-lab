@@ -1,0 +1,513 @@
+{
+  "accessed": "2026-10-09",
+  "scope": "read-only repository inspection; no third-party code executed or incorporated",
+  "repositories": [
+    {
+      "repository": "Patent2net/P2N-v3",
+      "url": "https://github.com/Patent2net/P2N-v3",
+      "sha": "43fc9500fcb65b364bd34c255e235efc4b9670b4",
+      "last_commit": "2024-02-06T12:42:15Z",
+      "archived": false,
+      "spdx": "NOASSERTION",
+      "tree_truncated": false,
+      "file_count": 2185,
+      "root_files": [
+        ".bumpversion.cfg",
+        ".gitattributes",
+        ".gitignore",
+        "LICENSE.txt",
+        "MANIFEST.in",
+        "Makefile",
+        "P2N-TrizifyerE.py",
+        "README.md",
+        "README.rst",
+        "StoplistEnglish.txt",
+        "app.py",
+        "carrot2.sh",
+        "debugger.py",
+        "index.html",
+        "installP2N.bat",
+        "placeholder.cql",
+        "readthedocs.yml",
+        "requete.cql",
+        "requirements-docs.txt",
+        "requirements-release.txt",
+        "requirements.txt",
+        "run-all.sh",
+        "runP2N.bat",
+        "runP2NSingle.bat",
+        "runP2NSpecial.bat",
+        "setup.py",
+        "start.sh",
+        "update.sh"
+      ],
+      "evidence": [
+        {
+          "path": "LICENSE.txt",
+          "url": "https://github.com/Patent2net/P2N-v3/blob/43fc9500fcb65b364bd34c255e235efc4b9670b4/LICENSE.txt"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/Patent2net/P2N-v3/blob/43fc9500fcb65b364bd34c255e235efc4b9670b4/README.md"
+        },
+        {
+          "path": "README.rst",
+          "url": "https://github.com/Patent2net/P2N-v3/blob/43fc9500fcb65b364bd34c255e235efc4b9670b4/README.rst"
+        }
+      ],
+      "reviewed_license": "CeCILL-B (license text)",
+      "selection_note": "学习面向研究者的安装与导出说明；其采集、Web和Docker体系不进入当前版本。"
+    },
+    {
+      "repository": "JYProjs/patentpy",
+      "url": "https://github.com/JYProjs/patentpy",
+      "sha": "be573fcbeb0b05abe4541b3f15dcb9ef9434e538",
+      "last_commit": "2022-02-09T03:10:49Z",
+      "archived": false,
+      "spdx": "MIT",
+      "tree_truncated": false,
+      "file_count": 79,
+      "root_files": [
+        ".gitignore",
+        "LICENSE",
+        "MANIFEST.in",
+        "README.md",
+        "codecov.yml",
+        "pyproject.toml",
+        "setup.py"
+      ],
+      "evidence": [
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/JYProjs/patentpy/blob/be573fcbeb0b05abe4541b3f15dcb9ef9434e538/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/JYProjs/patentpy/blob/be573fcbeb0b05abe4541b3f15dcb9ef9434e538/README.md"
+        },
+        {
+          "path": "pyproject.toml",
+          "url": "https://github.com/JYProjs/patentpy/blob/be573fcbeb0b05abe4541b3f15dcb9ef9434e538/pyproject.toml"
+        },
+        {
+          "path": "docs/.nojekyll",
+          "url": "https://github.com/JYProjs/patentpy/blob/be573fcbeb0b05abe4541b3f15dcb9ef9434e538/docs/.nojekyll"
+        },
+        {
+          "path": "docs/Makefile",
+          "url": "https://github.com/JYProjs/patentpy/blob/be573fcbeb0b05abe4541b3f15dcb9ef9434e538/docs/Makefile"
+        }
+      ],
+      "reviewed_license": "MIT",
+      "selection_note": "借鉴简短安装命令、输入/返回值和可运行示例；数据采集保持在本工具上游。"
+    },
+    {
+      "repository": "cverluise/PatCit",
+      "url": "https://github.com/cverluise/PatCit",
+      "sha": "a2a5d7fa6664b2f33edfe60d353c13bf5f97fb84",
+      "last_commit": "2020-12-23T21:35:57Z",
+      "archived": false,
+      "spdx": "MIT",
+      "tree_truncated": false,
+      "file_count": 166,
+      "root_files": [
+        ".dvcignore",
+        ".gitignore",
+        ".gitmodules",
+        ".pre-commit-config.yaml",
+        "CITATION",
+        "CODE_OF_CONDUCT.md",
+        "CONTRIBUTING.md",
+        "CRediT.md",
+        "LICENSE.md",
+        "Makefile",
+        "README-dev.md",
+        "README.md",
+        "mkdocs.yml",
+        "patcit-logo.svg",
+        "poetry.lock",
+        "prepare_tls214.sh",
+        "pyproject.toml",
+        "requirements.txt",
+        "setup.py"
+      ],
+      "evidence": [
+        {
+          "path": "LICENSE.md",
+          "url": "https://github.com/cverluise/PatCit/blob/a2a5d7fa6664b2f33edfe60d353c13bf5f97fb84/LICENSE.md"
+        },
+        {
+          "path": "README-dev.md",
+          "url": "https://github.com/cverluise/PatCit/blob/a2a5d7fa6664b2f33edfe60d353c13bf5f97fb84/README-dev.md"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/cverluise/PatCit/blob/a2a5d7fa6664b2f33edfe60d353c13bf5f97fb84/README.md"
+        },
+        {
+          "path": "pyproject.toml",
+          "url": "https://github.com/cverluise/PatCit/blob/a2a5d7fa6664b2f33edfe60d353c13bf5f97fb84/pyproject.toml"
+        },
+        {
+          "path": "docs/awesome.md",
+          "url": "https://github.com/cverluise/PatCit/blob/a2a5d7fa6664b2f33edfe60d353c13bf5f97fb84/docs/awesome.md"
+        },
+        {
+          "path": "docs/classify.md",
+          "url": "https://github.com/cverluise/PatCit/blob/a2a5d7fa6664b2f33edfe60d353c13bf5f97fb84/docs/classify.md"
+        }
+      ],
+      "reviewed_license": "MIT",
+      "selection_note": "借鉴按数据产品和复现步骤组织文档；不引入其NPL提取流程。"
+    },
+    {
+      "repository": "cortext/patstat",
+      "url": "https://github.com/cortext/patstat",
+      "sha": "ae02ee130ecfe21cef3096a73e0a167fdee22481",
+      "last_commit": "2020-11-16T18:36:49Z",
+      "archived": false,
+      "spdx": "MIT",
+      "tree_truncated": false,
+      "file_count": 83,
+      "root_files": [
+        ".gitignore",
+        "LICENSE",
+        "README.md"
+      ],
+      "evidence": [
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/cortext/patstat/blob/ae02ee130ecfe21cef3096a73e0a167fdee22481/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/cortext/patstat/blob/ae02ee130ecfe21cef3096a73e0a167fdee22481/README.md"
+        }
+      ],
+      "reviewed_license": "MIT",
+      "selection_note": "借鉴记录数据来源和分类规则；不把数据库重建变成开源用户的入门门槛。"
+    },
+    {
+      "repository": "volfpeter/uspto-patent-citation-graph",
+      "url": "https://github.com/volfpeter/uspto-patent-citation-graph",
+      "sha": "9f24422d62fedd38ebcbbf7437bb5960abf78bd5",
+      "last_commit": "2025-05-05T13:17:23Z",
+      "archived": false,
+      "spdx": "MIT",
+      "tree_truncated": false,
+      "file_count": 7,
+      "root_files": [
+        ".gitignore",
+        "LICENSE",
+        "Pipfile",
+        "README.md",
+        "requirements.txt",
+        "setup.py"
+      ],
+      "evidence": [
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/volfpeter/uspto-patent-citation-graph/blob/9f24422d62fedd38ebcbbf7437bb5960abf78bd5/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/volfpeter/uspto-patent-citation-graph/blob/9f24422d62fedd38ebcbbf7437bb5960abf78bd5/README.md"
+        }
+      ],
+      "reviewed_license": "MIT",
+      "selection_note": "借鉴小型Python包和最小调用示例；不添加在线API、缓存数据库或图遍历功能。"
+    },
+    {
+      "repository": "SciSciCollective/pyscisci",
+      "url": "https://github.com/SciSciCollective/pyscisci",
+      "sha": "acd38735ae1b23cf8b668e8947ccd833ca60ccac",
+      "last_commit": "2026-08-04T16:11:07Z",
+      "archived": false,
+      "spdx": "MIT",
+      "tree_truncated": false,
+      "file_count": 169,
+      "root_files": [
+        ".gitignore",
+        ".readthedocs.yml",
+        ".travis.yml",
+        "CODE_OF_CONDUCT.md",
+        "CONTRIBUTING.md",
+        "LICENSE",
+        "Pipfile",
+        "README.md",
+        "setup.py"
+      ],
+      "evidence": [
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/SciSciCollective/pyscisci/blob/acd38735ae1b23cf8b668e8947ccd833ca60ccac/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/SciSciCollective/pyscisci/blob/acd38735ae1b23cf8b668e8947ccd833ca60ccac/README.md"
+        },
+        {
+          "path": "docs/Makefile",
+          "url": "https://github.com/SciSciCollective/pyscisci/blob/acd38735ae1b23cf8b668e8947ccd833ca60ccac/docs/Makefile"
+        },
+        {
+          "path": "docs/about.rst",
+          "url": "https://github.com/SciSciCollective/pyscisci/blob/acd38735ae1b23cf8b668e8947ccd833ca60ccac/docs/about.rst"
+        }
+      ],
+      "reviewed_license": "MIT",
+      "selection_note": "主要参照：指标与示例对应，方法、API和数据接入分层；本项目保留四里程碑专长。"
+    },
+    {
+      "repository": "dspinellis/alexandria3k",
+      "url": "https://github.com/dspinellis/alexandria3k",
+      "sha": "479a00689464c41837096a86f457b32f1d48ce87",
+      "last_commit": "2026-07-26T12:53:22Z",
+      "archived": false,
+      "spdx": "GPL-3.0",
+      "tree_truncated": false,
+      "file_count": 478,
+      "root_files": [
+        ".gitignore",
+        ".pylintrc",
+        "CITATION.cff",
+        "LICENSE",
+        "README.md",
+        "pyproject.toml"
+      ],
+      "evidence": [
+        {
+          "path": "CITATION.cff",
+          "url": "https://github.com/dspinellis/alexandria3k/blob/479a00689464c41837096a86f457b32f1d48ce87/CITATION.cff"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/dspinellis/alexandria3k/blob/479a00689464c41837096a86f457b32f1d48ce87/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/dspinellis/alexandria3k/blob/479a00689464c41837096a86f457b32f1d48ce87/README.md"
+        },
+        {
+          "path": "pyproject.toml",
+          "url": "https://github.com/dspinellis/alexandria3k/blob/479a00689464c41837096a86f457b32f1d48ce87/pyproject.toml"
+        },
+        {
+          "path": ".github/workflows/ci.yml",
+          "url": "https://github.com/dspinellis/alexandria3k/blob/479a00689464c41837096a86f457b32f1d48ce87/.github/workflows/ci.yml"
+        },
+        {
+          "path": "docs/.gitignore",
+          "url": "https://github.com/dspinellis/alexandria3k/blob/479a00689464c41837096a86f457b32f1d48ce87/docs/.gitignore"
+        },
+        {
+          "path": "docs/Makefile",
+          "url": "https://github.com/dspinellis/alexandria3k/blob/479a00689464c41837096a86f457b32f1d48ce87/docs/Makefile"
+        }
+      ],
+      "reviewed_license": "GPL-3.0 (GitHub detection)",
+      "selection_note": "主要参照：CLI、文档、examples、tests、CITATION.cff和打包元数据；不复制GPL实现。"
+    },
+    {
+      "repository": "mirkolai/pybiblionet",
+      "url": "https://github.com/mirkolai/pybiblionet",
+      "sha": "045f250381a8588966c47d2139be6105a2c3347c",
+      "last_commit": "2026-03-30T11:18:02Z",
+      "archived": false,
+      "spdx": "GPL-3.0",
+      "tree_truncated": false,
+      "file_count": 19,
+      "root_files": [
+        ".gitignore",
+        "LICENSE",
+        "MANIFEST.in",
+        "README.md",
+        "pybiblionet.ipynb",
+        "pyproject.toml",
+        "pytest.ini",
+        "requirements.txt"
+      ],
+      "evidence": [
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/mirkolai/pybiblionet/blob/045f250381a8588966c47d2139be6105a2c3347c/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/mirkolai/pybiblionet/blob/045f250381a8588966c47d2139be6105a2c3347c/README.md"
+        },
+        {
+          "path": "pyproject.toml",
+          "url": "https://github.com/mirkolai/pybiblionet/blob/045f250381a8588966c47d2139be6105a2c3347c/pyproject.toml"
+        }
+      ],
+      "reviewed_license": "GPL-3.0 (GitHub detection)",
+      "selection_note": "借鉴面向具体分析任务的说明与软件引用；不引入NLP模型或网络中心性计算。"
+    },
+    {
+      "repository": "KonstantinosPetrakis/PatentInspector",
+      "url": "https://github.com/KonstantinosPetrakis/PatentInspector",
+      "sha": "1823e25ee697ce3720aa1a5f5a6f63521ac1767e",
+      "last_commit": "2023-12-01T14:04:35Z",
+      "archived": false,
+      "spdx": "GPL-3.0",
+      "tree_truncated": false,
+      "file_count": 126,
+      "root_files": [
+        ".dockerignore",
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "backend.dockerfile",
+        "database.dockerfile",
+        "docker-compose.yaml",
+        "frontend.dockerfile"
+      ],
+      "evidence": [
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/KonstantinosPetrakis/PatentInspector/blob/1823e25ee697ce3720aa1a5f5a6f63521ac1767e/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/KonstantinosPetrakis/PatentInspector/blob/1823e25ee697ce3720aa1a5f5a6f63521ac1767e/README.md"
+        }
+      ],
+      "reviewed_license": "GPL-3.0 (GitHub detection)",
+      "selection_note": "作为前后端成本对照；其数据库、API和界面较重，当前选择离线包与报告。"
+    },
+    {
+      "repository": "scientific-python/cookie",
+      "url": "https://github.com/scientific-python/cookie",
+      "sha": "55ef55c2b406c7a4a2244ff246506d823e640ad6",
+      "last_commit": "2026-10-07T16:50:06Z",
+      "archived": false,
+      "spdx": "BSD-3-Clause",
+      "tree_truncated": false,
+      "file_count": 153,
+      "root_files": [
+        ".git_archival.txt",
+        ".gitattributes",
+        ".gitignore",
+        ".pre-commit-config.yaml",
+        ".pre-commit-hooks.yaml",
+        ".prekignore",
+        ".readthedocs.yaml",
+        "AGENTS.md",
+        "LICENSE",
+        "README.md",
+        "action.yml",
+        "bun.lock",
+        "cookiecutter.json",
+        "copier.yml",
+        "noxfile.py",
+        "package.json",
+        "pyproject.toml"
+      ],
+      "evidence": [
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/scientific-python/cookie/blob/55ef55c2b406c7a4a2244ff246506d823e640ad6/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/scientific-python/cookie/blob/55ef55c2b406c7a4a2244ff246506d823e640ad6/README.md"
+        },
+        {
+          "path": "pyproject.toml",
+          "url": "https://github.com/scientific-python/cookie/blob/55ef55c2b406c7a4a2244ff246506d823e640ad6/pyproject.toml"
+        },
+        {
+          "path": ".github/workflows/bump.yml",
+          "url": "https://github.com/scientific-python/cookie/blob/55ef55c2b406c7a4a2244ff246506d823e640ad6/.github/workflows/bump.yml"
+        },
+        {
+          "path": "docs/LICENSE",
+          "url": "https://github.com/scientific-python/cookie/blob/55ef55c2b406c7a4a2244ff246506d823e640ad6/docs/LICENSE"
+        },
+        {
+          "path": "docs/README.md",
+          "url": "https://github.com/scientific-python/cookie/blob/55ef55c2b406c7a4a2244ff246506d823e640ad6/docs/README.md"
+        }
+      ],
+      "reviewed_license": "BSD-3-Clause",
+      "selection_note": "主要工程参照：pyproject元数据、测试和CI；只采用当前所需部分。"
+    },
+    {
+      "repository": "timtroendle/cookiecutter-reproducible-research",
+      "url": "https://github.com/timtroendle/cookiecutter-reproducible-research",
+      "sha": "fb6325cc343a852e995e63cb8f3bb0db24a255f4",
+      "last_commit": "2025-07-14T12:11:34Z",
+      "archived": false,
+      "spdx": "MIT",
+      "tree_truncated": false,
+      "file_count": 66,
+      "root_files": [
+        "LICENSE.md",
+        "README.md"
+      ],
+      "evidence": [
+        {
+          "path": "LICENSE.md",
+          "url": "https://github.com/timtroendle/cookiecutter-reproducible-research/blob/fb6325cc343a852e995e63cb8f3bb0db24a255f4/LICENSE.md"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/timtroendle/cookiecutter-reproducible-research/blob/fb6325cc343a852e995e63cb8f3bb0db24a255f4/README.md"
+        },
+        {
+          "path": ".github/workflows/reproduction.yaml",
+          "url": "https://github.com/timtroendle/cookiecutter-reproducible-research/blob/fb6325cc343a852e995e63cb8f3bb0db24a255f4/.github/workflows/reproduction.yaml"
+        }
+      ],
+      "reviewed_license": "MIT",
+      "selection_note": "借鉴演示数据、运行脚本和报告串联；当前不增加Snakemake/Pandoc/集群依赖。"
+    },
+    {
+      "repository": "mtcberlin/epo-tip-svelte-patstat-explorer",
+      "url": "https://github.com/mtcberlin/epo-tip-svelte-patstat-explorer",
+      "sha": "e00a727ddde542dbb4cff00f1fb1d6d96fef4ff6",
+      "last_commit": "2026-05-21T13:29:00Z",
+      "archived": false,
+      "spdx": "NOASSERTION",
+      "tree_truncated": false,
+      "file_count": 131,
+      "root_files": [
+        ".gitignore",
+        ".npmrc",
+        "LICENSE.txt",
+        "PATSTAT_Explorer.ipynb",
+        "README.md",
+        "components.json",
+        "launch.py",
+        "package-lock.json",
+        "package.json",
+        "patstat-explorer-documentation.pdf",
+        "sidecar.py",
+        "svelte.config.js",
+        "tsconfig.json",
+        "vite.config.ts"
+      ],
+      "evidence": [
+        {
+          "path": "LICENSE.txt",
+          "url": "https://github.com/mtcberlin/epo-tip-svelte-patstat-explorer/blob/e00a727ddde542dbb4cff00f1fb1d6d96fef4ff6/LICENSE.txt"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/mtcberlin/epo-tip-svelte-patstat-explorer/blob/e00a727ddde542dbb4cff00f1fb1d6d96fef4ff6/README.md"
+        },
+        {
+          "path": "docs/anmelder-konsolidierung.md",
+          "url": "https://github.com/mtcberlin/epo-tip-svelte-patstat-explorer/blob/e00a727ddde542dbb4cff00f1fb1d6d96fef4ff6/docs/anmelder-konsolidierung.md"
+        },
+        {
+          "path": "docs/applicant-consolidation.md",
+          "url": "https://github.com/mtcberlin/epo-tip-svelte-patstat-explorer/blob/e00a727ddde542dbb4cff00f1fb1d6d96fef4ff6/docs/applicant-consolidation.md"
+        }
+      ],
+      "reviewed_license": "PROPRIETARY; not open source",
+      "selection_note": "排除：LICENSE.txt明确保留全部权利，公开可见不等于开源；仅记录筛选理由。"
+    }
+  ]
+}

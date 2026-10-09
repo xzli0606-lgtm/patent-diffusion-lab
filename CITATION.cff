@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this software when using it, and cite the underlying study when its bibliographic record is available."
+type: software
+title: "Patent Diffusion Lab"
+version: "0.1.0"
+license: Apache-2.0
+repository-code: "https://github.com/xzli0606-lgtm/patent-diffusion-lab"
+authors:
+  - family-names: "姜"
+    given-names: "红丙"
+    affiliation: "郑州大学管理学院"
+  - family-names: "李"
+    given-names: "旭泽"
+    affiliation: "郑州大学管理学院"
+abstract: "An experimental offline Python tool for matched patent-family citation milestones and opportunity-conditioned field references."
+keywords:
+  - patent citation
+  - scientometrics
+  - reproducible research
