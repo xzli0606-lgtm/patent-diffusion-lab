@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 EDGE_SHA=None
 FAMILY_SHA=None
+FIELD_DRAW_SEED=20260921
 
 def digest(path):
     h = hashlib.sha256()
@@ -131,7 +132,7 @@ def main():
     rng = np.random.default_rng(20260921)
     for b in range(a.replicates):
         w = np.bincount(rng.integers(0, n_pairs, size=n_pairs), minlength=n_pairs).astype(np.int32)
-        sim, zero = weighted_draw_and_score(offsets, days, focal, starts, counts, donor_masks, donor_pairs, w, edge_supported, 20260921 + b)
+        sim, zero = weighted_draw_and_score(offsets, days, focal, starts, counts, donor_masks, donor_pairs, w, edge_supported, FIELD_DRAW_SEED + b)
         zero_fallback += zero; pair_sim = sim.reshape(-1, 2, 3)
         usew = w * valid_pair; den = usew.sum()
         draws[b] = ((pair_obs[:, 1].astype(float) - pair_obs[:, 0].astype(float) - pair_sim[:, 1].astype(float) + pair_sim[:, 0].astype(float)) * usew[:, None]).sum(axis=0) / den

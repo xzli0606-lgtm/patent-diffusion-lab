@@ -1,5 +1,5 @@
 include README.md README.zh-CN.md LICENSE NOTICE AUTHORS.md CITATION.cff
-include DATA_POLICY.md CONTRIBUTING.md CHANGELOG.md ANALYSIS_DECISIONS.md PROVENANCE.json requirements.txt
+include DATA_POLICY.md CONTRIBUTING.md CHANGELOG.md ANALYSIS_DECISIONS.md PROVENANCE.json requirements.txt requirements.lock
 recursive-include docs *.md *.json
 recursive-include tests *.py
 recursive-include .github *.yml *.md

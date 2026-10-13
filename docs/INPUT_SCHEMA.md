@@ -1,10 +1,9 @@
 # Input schema
 
-This version reads **Parquet**. It expects the study's preprocessed matched
+The canonical paper profile reads **Parquet**. The generic `compare` interface also reads CSV; see [portable schema](PORTABLE_GUIDE.md). It expects the study's preprocessed matched
 DOCDB families and dated external-family citation edges. A row in `edges` means
-**citing family -> focal (cited) family**. No automated matching or PATSTAT
-extraction is provided. All identifiers must be consistently typed in both tables;
-strings are recommended. Do not use float identifiers.
+**citing family -> focal (cited) family**. The paper profile preserves the frozen pairs; the generic profile performs explicit exact matching. No PATSTAT extraction is performed. All identifiers must be consistently typed in both tables;
+preserve the original native types in paper bundles, because sort order affects deterministic sampling. Do not use float identifiers.
 
 ## Families: one row per focal DOCDB family
 

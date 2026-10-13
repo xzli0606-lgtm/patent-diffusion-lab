@@ -1,12 +1,21 @@
 # Patent Diffusion Lab / 专利引用扩散分析工具
 
+0.2.0验收：全样本与冷启动各410项论文数值通过，59个结果文件解析值完全一致，26项测试通过。
+详见[验收记录与边界](docs/ACCEPTANCE.md)。本次仅发布代码及文档，真实AI/非AI数据包保留本地。
+
 [English](README.md) · [方法说明](docs/METHODS.md) · [数据字段](docs/INPUT_SCHEMA.md) · [GitHub 调研与借鉴](docs/RELATED_PROJECTS.md)
 
 **郑州大学管理学院 · 姜红丙、李旭泽**
 
-本工具将论文中的四个累积引用里程碑、配对基础比较和机会条件参照整理为可本地运行的 Python 包。
-当前是实验版：沿用论文方法和修复后的复现实现，记录与论文显示值的差异。
-尚不包含全套论文敏感性分析，也不是新的全量复现报告。
+版本0.2.0提供论文全样本执行配置、通用两组匹配比较命令行和本地浏览器界面。
+请阅读[完整复现与验收范围](docs/REPRODUCTION.md)、[中英文使用教程](docs/PORTABLE_GUIDE.md)
+和[数据分发审查](docs/DISTRIBUTION_REVIEW.md)。数据包不随代码仓库公开分发。
+
+```sh
+python -m pip install -r requirements.lock
+python -m pip install --no-deps .
+python -m patent_diffusion ui --workdir outputs/local-ui
+```
 
 ## 四个里程碑
 

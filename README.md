@@ -10,8 +10,21 @@ An offline research tool for **four cumulative patent-citation milestones**, mat
 AI/non-AI comparisons, and an opportunity-conditioned field reference. It turns
 preprocessed DOCDB-family citation events into auditable JSON and Markdown reports.
 
-**Status: experimental alpha, Python 3.12.** The package implements the main local
-analysis, not the complete paper replication or every archived sensitivity analysis.
+**Version 0.2.0, Python 3.12.** Includes a full-sample paper execution profile,
+a generic matched two-group CLI, and a local browser interface. See
+[reproduction and acceptance scope](docs/REPRODUCTION.md),
+[English/中文 portable guide](docs/PORTABLE_GUIDE.md), and
+[data redistribution review](docs/DISTRIBUTION_REVIEW.md).
+
+Full-sample and cold-start checks: **410/410 manuscript targets, 59/59 parsed
+result files, 26 tests**. See [executed acceptance and limitations](docs/ACCEPTANCE.md).
+The real AI/non-AI archives remain local and are not included in this code release.
+
+```sh
+python -m pip install -r requirements.lock
+python -m pip install --no-deps .
+python -m patent_diffusion ui --workdir outputs/local-ui
+```
 
 ## What it measures
 

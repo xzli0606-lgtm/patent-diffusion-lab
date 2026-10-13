@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "patent-diffusion-lab"
-version = "0.1.0"
+version = "0.2.0"
 description = "Reproducible matched patent-family citation milestones and opportunity references"
 readme = "README.md"
 license = "Apache-2.0"
@@ -35,4 +35,4 @@ patent-diffusion = "patent_diffusion.cli:main"
 include = ["patent_diffusion*"]
 
 [tool.setuptools.package-data]
-patent_diffusion = ["reference_contract.json"]
+patent_diffusion = ["reference_contract.json", "supplement_provenance.json"]

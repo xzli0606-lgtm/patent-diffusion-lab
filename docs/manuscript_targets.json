@@ -1,0 +1,4102 @@
+[
+  {
+    "target_id":"sample.aipd_ai_grants",
+    "actual_key":"sample.aipd_ai_grants",
+    "target_value":327952.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B84\/B88\/B90",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"sample.aipat_ai_grants",
+    "actual_key":"sample.aipat_ai_grants",
+    "target_value":93760.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B84\/B88\/B90",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"sample.ai_grants_before_type_exclusion",
+    "actual_key":"sample.ai_grants_before_type_exclusion",
+    "target_value":421712.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B84\/B88\/B90",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"sample.reissue_excluded",
+    "actual_key":"sample.reissue_excluded",
+    "target_value":263.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B84\/B88\/B90",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"sample.mapped_ai_records",
+    "actual_key":"sample.mapped_ai_records",
+    "target_value":421449.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B84\/B88\/B90",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"sample.mapped_ai_families",
+    "actual_key":"sample.mapped_ai_families",
+    "target_value":336817.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B84\/B88\/B90",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"sample.pre2019_ai_families_excluded",
+    "actual_key":"sample.pre2019_ai_families_excluded",
+    "target_value":27308.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B84\/B88\/B90",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"sample.eligible_ai_families",
+    "actual_key":"sample.eligible_ai_families",
+    "target_value":309509.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B84\/B88\/B90",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"sample.non_ai_pool",
+    "actual_key":"sample.non_ai_pool",
+    "target_value":1287581.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B84\/B88\/B90",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"sample.matched_pairs",
+    "actual_key":"sample.matched_pairs",
+    "target_value":232258.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B84\/B88\/B90",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"sample.matched_families",
+    "actual_key":"sample.matched_families",
+    "target_value":464516.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B84\/B88\/B90",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"sample.dated_family_edges",
+    "actual_key":"sample.dated_family_edges",
+    "target_value":3944388.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B84\/B88\/B90",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"sample.missing_ai_primary_cpc4",
+    "actual_key":"sample.missing_ai_primary_cpc4",
+    "target_value":2.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B84\/B88\/B90",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"sample.ai_no_common_support",
+    "actual_key":"sample.ai_no_common_support",
+    "target_value":77249.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B84\/B88\/B90",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"window.1Y.candidate_pairs",
+    "actual_key":"window.1Y.candidate_pairs",
+    "target_value":232258.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B114",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"window.1Y.classification_complete_pairs",
+    "actual_key":"window.1Y.classification_complete_pairs",
+    "target_value":224608.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B114",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"window.1Y.coverage_pct",
+    "actual_key":"window.1Y.coverage_pct",
+    "target_value":98.64,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B114",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"window.1Y.missing_edge_gap_pp",
+    "actual_key":"window.1Y.missing_edge_gap_pp",
+    "target_value":0.937,
+    "unit":"pp",
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B114",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"window.3Y.candidate_pairs",
+    "actual_key":"window.3Y.candidate_pairs",
+    "target_value":170225.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B114",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"window.3Y.classification_complete_pairs",
+    "actual_key":"window.3Y.classification_complete_pairs",
+    "target_value":156583.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B114",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"window.3Y.coverage_pct",
+    "actual_key":"window.3Y.coverage_pct",
+    "target_value":98.62,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B114",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"window.3Y.missing_edge_gap_pp",
+    "actual_key":"window.3Y.missing_edge_gap_pp",
+    "target_value":0.924,
+    "unit":"pp",
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B114",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"window.5Y.candidate_pairs",
+    "actual_key":"window.5Y.candidate_pairs",
+    "target_value":98901.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B114",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"window.5Y.classification_complete_pairs",
+    "actual_key":"window.5Y.classification_complete_pairs",
+    "target_value":87730.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B114",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"window.5Y.coverage_pct",
+    "actual_key":"window.5Y.coverage_pct",
+    "target_value":98.59,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B114",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"window.5Y.missing_edge_gap_pp",
+    "actual_key":"window.5Y.missing_edge_gap_pp",
+    "target_value":0.918,
+    "unit":"pp",
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B114",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.1Y.H3.ai_count",
+    "actual_key":"table4.1Y.H3.ai_count",
+    "target_value":114677.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 1Y \/ H3",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.1Y.H3.ai_rate_pct",
+    "actual_key":"table4.1Y.H3.ai_rate_pct",
+    "target_value":51.06,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 1Y \/ H3",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.1Y.H3.nonai_count",
+    "actual_key":"table4.1Y.H3.nonai_count",
+    "target_value":92889.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 1Y \/ H3",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.1Y.H3.nonai_rate_pct",
+    "actual_key":"table4.1Y.H3.nonai_rate_pct",
+    "target_value":41.36,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 1Y \/ H3",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.1Y.H4.ai_count",
+    "actual_key":"table4.1Y.H4.ai_count",
+    "target_value":53728.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 1Y \/ H4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.1Y.H4.ai_rate_pct",
+    "actual_key":"table4.1Y.H4.ai_rate_pct",
+    "target_value":23.92,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 1Y \/ H4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.1Y.H4.nonai_count",
+    "actual_key":"table4.1Y.H4.nonai_count",
+    "target_value":36310.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 1Y \/ H4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.1Y.H4.nonai_rate_pct",
+    "actual_key":"table4.1Y.H4.nonai_rate_pct",
+    "target_value":16.17,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 1Y \/ H4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.1Y.H5.ai_count",
+    "actual_key":"table4.1Y.H5.ai_count",
+    "target_value":19758.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 1Y \/ H5",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.1Y.H5.ai_rate_pct",
+    "actual_key":"table4.1Y.H5.ai_rate_pct",
+    "target_value":8.8,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 1Y \/ H5",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.1Y.H5.nonai_count",
+    "actual_key":"table4.1Y.H5.nonai_count",
+    "target_value":11612.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 1Y \/ H5",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.1Y.H5.nonai_rate_pct",
+    "actual_key":"table4.1Y.H5.nonai_rate_pct",
+    "target_value":5.17,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 1Y \/ H5",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.3Y.H3.ai_count",
+    "actual_key":"table4.3Y.H3.ai_count",
+    "target_value":121175.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 3Y \/ H3",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.3Y.H3.ai_rate_pct",
+    "actual_key":"table4.3Y.H3.ai_rate_pct",
+    "target_value":77.39,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 3Y \/ H3",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.3Y.H3.nonai_count",
+    "actual_key":"table4.3Y.H3.nonai_count",
+    "target_value":107762.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 3Y \/ H3",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.3Y.H3.nonai_rate_pct",
+    "actual_key":"table4.3Y.H3.nonai_rate_pct",
+    "target_value":68.82,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 3Y \/ H3",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.3Y.H4.ai_count",
+    "actual_key":"table4.3Y.H4.ai_count",
+    "target_value":82822.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 3Y \/ H4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.3Y.H4.ai_rate_pct",
+    "actual_key":"table4.3Y.H4.ai_rate_pct",
+    "target_value":52.89,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 3Y \/ H4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.3Y.H4.nonai_count",
+    "actual_key":"table4.3Y.H4.nonai_count",
+    "target_value":63483.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 3Y \/ H4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.3Y.H4.nonai_rate_pct",
+    "actual_key":"table4.3Y.H4.nonai_rate_pct",
+    "target_value":40.54,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 3Y \/ H4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.3Y.H5.ai_count",
+    "actual_key":"table4.3Y.H5.ai_count",
+    "target_value":44282.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 3Y \/ H5",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.3Y.H5.ai_rate_pct",
+    "actual_key":"table4.3Y.H5.ai_rate_pct",
+    "target_value":28.28,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 3Y \/ H5",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.3Y.H5.nonai_count",
+    "actual_key":"table4.3Y.H5.nonai_count",
+    "target_value":29764.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 3Y \/ H5",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.3Y.H5.nonai_rate_pct",
+    "actual_key":"table4.3Y.H5.nonai_rate_pct",
+    "target_value":19.01,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 3Y \/ H5",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.5Y.H3.ai_count",
+    "actual_key":"table4.5Y.H3.ai_count",
+    "target_value":74844.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 5Y \/ H3",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.5Y.H3.ai_rate_pct",
+    "actual_key":"table4.5Y.H3.ai_rate_pct",
+    "target_value":85.31,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 5Y \/ H3",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.5Y.H3.nonai_count",
+    "actual_key":"table4.5Y.H3.nonai_count",
+    "target_value":69242.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 5Y \/ H3",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.5Y.H3.nonai_rate_pct",
+    "actual_key":"table4.5Y.H3.nonai_rate_pct",
+    "target_value":78.93,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 5Y \/ H3",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.5Y.H4.ai_count",
+    "actual_key":"table4.5Y.H4.ai_count",
+    "target_value":57132.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 5Y \/ H4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.5Y.H4.ai_rate_pct",
+    "actual_key":"table4.5Y.H4.ai_rate_pct",
+    "target_value":65.12,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 5Y \/ H4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.5Y.H4.nonai_count",
+    "actual_key":"table4.5Y.H4.nonai_count",
+    "target_value":46609.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 5Y \/ H4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.5Y.H4.nonai_rate_pct",
+    "actual_key":"table4.5Y.H4.nonai_rate_pct",
+    "target_value":53.13,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 5Y \/ H4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.5Y.H5.ai_count",
+    "actual_key":"table4.5Y.H5.ai_count",
+    "target_value":35066.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 5Y \/ H5",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.5Y.H5.ai_rate_pct",
+    "actual_key":"table4.5Y.H5.ai_rate_pct",
+    "target_value":39.97,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 5Y \/ H5",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.5Y.H5.nonai_count",
+    "actual_key":"table4.5Y.H5.nonai_count",
+    "target_value":25601.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 5Y \/ H5",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"table4.5Y.H5.nonai_rate_pct",
+    "actual_key":"table4.5Y.H5.nonai_rate_pct",
+    "target_value":29.18,
+    "unit":"pct",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Table4 row 5Y \/ H5",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.1Y.H3.ai_rate_pct",
+    "actual_key":"S1.main.1Y.H3.ai_rate_pct",
+    "target_value":51.06,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H3 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.1Y.H3.nonai_rate_pct",
+    "actual_key":"S1.main.1Y.H3.nonai_rate_pct",
+    "target_value":41.36,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H3 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.1Y.H3.difference_pp",
+    "actual_key":"S1.main.1Y.H3.difference_pp",
+    "target_value":9.7,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H3 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.1Y.H3.OR",
+    "actual_key":"S1.main.1Y.H3.OR",
+    "target_value":1.503,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H3 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.1Y.H3.ci_low",
+    "actual_key":"S1.main.1Y.H3.ci_low",
+    "target_value":1.45,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H3 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.1Y.H3.ci_high",
+    "actual_key":"S1.main.1Y.H3.ci_high",
+    "target_value":1.56,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H3 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.1Y.H3.ai_rate_pct",
+    "actual_key":"S1.pure_cross_field.1Y.H3.ai_rate_pct",
+    "target_value":30.84,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H3 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.1Y.H3.nonai_rate_pct",
+    "actual_key":"S1.pure_cross_field.1Y.H3.nonai_rate_pct",
+    "target_value":22.67,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H3 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.1Y.H3.difference_pp",
+    "actual_key":"S1.pure_cross_field.1Y.H3.difference_pp",
+    "target_value":8.17,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H3 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.1Y.H3.OR",
+    "actual_key":"S1.pure_cross_field.1Y.H3.OR",
+    "target_value":1.546,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H3 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.1Y.H3.ci_low",
+    "actual_key":"S1.pure_cross_field.1Y.H3.ci_low",
+    "target_value":1.46,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H3 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.1Y.H3.ci_high",
+    "actual_key":"S1.pure_cross_field.1Y.H3.ci_high",
+    "target_value":1.64,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H3 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.1Y.H3.ai_rate_pct",
+    "actual_key":"S1.single_field.1Y.H3.ai_rate_pct",
+    "target_value":23.83,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H3 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.1Y.H3.nonai_rate_pct",
+    "actual_key":"S1.single_field.1Y.H3.nonai_rate_pct",
+    "target_value":17.05,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H3 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.1Y.H3.difference_pp",
+    "actual_key":"S1.single_field.1Y.H3.difference_pp",
+    "target_value":6.78,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H3 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.1Y.H3.OR",
+    "actual_key":"S1.single_field.1Y.H3.OR",
+    "target_value":1.537,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H3 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.1Y.H3.ci_low",
+    "actual_key":"S1.single_field.1Y.H3.ci_low",
+    "target_value":1.46,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H3 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.1Y.H3.ci_high",
+    "actual_key":"S1.single_field.1Y.H3.ci_high",
+    "target_value":1.62,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H3 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.1Y.H4.ai_rate_pct",
+    "actual_key":"S1.main.1Y.H4.ai_rate_pct",
+    "target_value":23.92,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H4 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.1Y.H4.nonai_rate_pct",
+    "actual_key":"S1.main.1Y.H4.nonai_rate_pct",
+    "target_value":16.17,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H4 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.1Y.H4.difference_pp",
+    "actual_key":"S1.main.1Y.H4.difference_pp",
+    "target_value":7.75,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H4 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.1Y.H4.OR",
+    "actual_key":"S1.main.1Y.H4.OR",
+    "target_value":1.658,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H4 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.1Y.H4.ci_low",
+    "actual_key":"S1.main.1Y.H4.ci_low",
+    "target_value":1.58,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H4 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.1Y.H4.ci_high",
+    "actual_key":"S1.main.1Y.H4.ci_high",
+    "target_value":1.74,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H4 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.1Y.H4.ai_rate_pct",
+    "actual_key":"S1.pure_cross_field.1Y.H4.ai_rate_pct",
+    "target_value":11.43,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H4 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.1Y.H4.nonai_rate_pct",
+    "actual_key":"S1.pure_cross_field.1Y.H4.nonai_rate_pct",
+    "target_value":6.78,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H4 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.1Y.H4.difference_pp",
+    "actual_key":"S1.pure_cross_field.1Y.H4.difference_pp",
+    "target_value":4.65,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H4 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.1Y.H4.OR",
+    "actual_key":"S1.pure_cross_field.1Y.H4.OR",
+    "target_value":1.801,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H4 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.1Y.H4.ci_low",
+    "actual_key":"S1.pure_cross_field.1Y.H4.ci_low",
+    "target_value":1.68,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H4 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.1Y.H4.ci_high",
+    "actual_key":"S1.pure_cross_field.1Y.H4.ci_high",
+    "target_value":1.93,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H4 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.1Y.H4.ai_rate_pct",
+    "actual_key":"S1.single_field.1Y.H4.ai_rate_pct",
+    "target_value":6.48,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H4 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.1Y.H4.nonai_rate_pct",
+    "actual_key":"S1.single_field.1Y.H4.nonai_rate_pct",
+    "target_value":3.78,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H4 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.1Y.H4.difference_pp",
+    "actual_key":"S1.single_field.1Y.H4.difference_pp",
+    "target_value":2.7,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H4 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.1Y.H4.OR",
+    "actual_key":"S1.single_field.1Y.H4.OR",
+    "target_value":1.77,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H4 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.1Y.H4.ci_low",
+    "actual_key":"S1.single_field.1Y.H4.ci_low",
+    "target_value":1.65,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H4 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.1Y.H4.ci_high",
+    "actual_key":"S1.single_field.1Y.H4.ci_high",
+    "target_value":1.89,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H4 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.1Y.H5.ai_rate_pct",
+    "actual_key":"S1.main.1Y.H5.ai_rate_pct",
+    "target_value":8.8,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H5 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.1Y.H5.nonai_rate_pct",
+    "actual_key":"S1.main.1Y.H5.nonai_rate_pct",
+    "target_value":5.17,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H5 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.1Y.H5.difference_pp",
+    "actual_key":"S1.main.1Y.H5.difference_pp",
+    "target_value":3.63,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H5 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.1Y.H5.OR",
+    "actual_key":"S1.main.1Y.H5.OR",
+    "target_value":1.788,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H5 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.1Y.H5.ci_low",
+    "actual_key":"S1.main.1Y.H5.ci_low",
+    "target_value":1.69,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H5 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.1Y.H5.ci_high",
+    "actual_key":"S1.main.1Y.H5.ci_high",
+    "target_value":1.89,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H5 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.1Y.H5.ai_rate_pct",
+    "actual_key":"S1.pure_cross_field.1Y.H5.ai_rate_pct",
+    "target_value":3.47,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H5 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.1Y.H5.nonai_rate_pct",
+    "actual_key":"S1.pure_cross_field.1Y.H5.nonai_rate_pct",
+    "target_value":1.76,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H5 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.1Y.H5.difference_pp",
+    "actual_key":"S1.pure_cross_field.1Y.H5.difference_pp",
+    "target_value":1.71,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H5 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.1Y.H5.OR",
+    "actual_key":"S1.pure_cross_field.1Y.H5.OR",
+    "target_value":2.019,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H5 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.1Y.H5.ci_low",
+    "actual_key":"S1.pure_cross_field.1Y.H5.ci_low",
+    "target_value":1.86,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H5 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.1Y.H5.ci_high",
+    "actual_key":"S1.pure_cross_field.1Y.H5.ci_high",
+    "target_value":2.19,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H5 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.1Y.H5.ai_rate_pct",
+    "actual_key":"S1.single_field.1Y.H5.ai_rate_pct",
+    "target_value":0.99,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H5 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.1Y.H5.nonai_rate_pct",
+    "actual_key":"S1.single_field.1Y.H5.nonai_rate_pct",
+    "target_value":0.44,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H5 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.1Y.H5.difference_pp",
+    "actual_key":"S1.single_field.1Y.H5.difference_pp",
+    "target_value":0.54,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H5 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.1Y.H5.OR",
+    "actual_key":"S1.single_field.1Y.H5.OR",
+    "target_value":2.238,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H5 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.1Y.H5.ci_low",
+    "actual_key":"S1.single_field.1Y.H5.ci_low",
+    "target_value":2.03,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H5 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.1Y.H5.ci_high",
+    "actual_key":"S1.single_field.1Y.H5.ci_high",
+    "target_value":2.47,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 1Y \/ H5 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.3Y.H3.ai_rate_pct",
+    "actual_key":"S1.main.3Y.H3.ai_rate_pct",
+    "target_value":77.39,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H3 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.3Y.H3.nonai_rate_pct",
+    "actual_key":"S1.main.3Y.H3.nonai_rate_pct",
+    "target_value":68.82,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H3 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.3Y.H3.difference_pp",
+    "actual_key":"S1.main.3Y.H3.difference_pp",
+    "target_value":8.57,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H3 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.3Y.H3.OR",
+    "actual_key":"S1.main.3Y.H3.OR",
+    "target_value":1.581,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H3 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.3Y.H3.ci_low",
+    "actual_key":"S1.main.3Y.H3.ci_low",
+    "target_value":1.49,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H3 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.3Y.H3.ci_high",
+    "actual_key":"S1.main.3Y.H3.ci_high",
+    "target_value":1.68,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H3 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.3Y.H3.ai_rate_pct",
+    "actual_key":"S1.pure_cross_field.3Y.H3.ai_rate_pct",
+    "target_value":54.81,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H3 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.3Y.H3.nonai_rate_pct",
+    "actual_key":"S1.pure_cross_field.3Y.H3.nonai_rate_pct",
+    "target_value":44.16,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H3 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.3Y.H3.difference_pp",
+    "actual_key":"S1.pure_cross_field.3Y.H3.difference_pp",
+    "target_value":10.65,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H3 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.3Y.H3.OR",
+    "actual_key":"S1.pure_cross_field.3Y.H3.OR",
+    "target_value":1.571,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H3 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.3Y.H3.ci_low",
+    "actual_key":"S1.pure_cross_field.3Y.H3.ci_low",
+    "target_value":1.44,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H3 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.3Y.H3.ci_high",
+    "actual_key":"S1.pure_cross_field.3Y.H3.ci_high",
+    "target_value":1.71,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H3 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.3Y.H3.ai_rate_pct",
+    "actual_key":"S1.single_field.3Y.H3.ai_rate_pct",
+    "target_value":46.53,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H3 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.3Y.H3.nonai_rate_pct",
+    "actual_key":"S1.single_field.3Y.H3.nonai_rate_pct",
+    "target_value":36.06,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H3 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.3Y.H3.difference_pp",
+    "actual_key":"S1.single_field.3Y.H3.difference_pp",
+    "target_value":10.46,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H3 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.3Y.H3.OR",
+    "actual_key":"S1.single_field.3Y.H3.OR",
+    "target_value":1.57,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H3 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.3Y.H3.ci_low",
+    "actual_key":"S1.single_field.3Y.H3.ci_low",
+    "target_value":1.46,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H3 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.3Y.H3.ci_high",
+    "actual_key":"S1.single_field.3Y.H3.ci_high",
+    "target_value":1.69,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H3 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.3Y.H4.ai_rate_pct",
+    "actual_key":"S1.main.3Y.H4.ai_rate_pct",
+    "target_value":52.89,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H4 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.3Y.H4.nonai_rate_pct",
+    "actual_key":"S1.main.3Y.H4.nonai_rate_pct",
+    "target_value":40.54,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H4 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.3Y.H4.difference_pp",
+    "actual_key":"S1.main.3Y.H4.difference_pp",
+    "target_value":12.35,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H4 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.3Y.H4.OR",
+    "actual_key":"S1.main.3Y.H4.OR",
+    "target_value":1.692,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H4 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.3Y.H4.ci_low",
+    "actual_key":"S1.main.3Y.H4.ci_low",
+    "target_value":1.59,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H4 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.3Y.H4.ci_high",
+    "actual_key":"S1.main.3Y.H4.ci_high",
+    "target_value":1.8,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H4 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.3Y.H4.ai_rate_pct",
+    "actual_key":"S1.pure_cross_field.3Y.H4.ai_rate_pct",
+    "target_value":30.34,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H4 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.3Y.H4.nonai_rate_pct",
+    "actual_key":"S1.pure_cross_field.3Y.H4.nonai_rate_pct",
+    "target_value":20.12,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H4 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.3Y.H4.difference_pp",
+    "actual_key":"S1.pure_cross_field.3Y.H4.difference_pp",
+    "target_value":10.22,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H4 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.3Y.H4.OR",
+    "actual_key":"S1.pure_cross_field.3Y.H4.OR",
+    "target_value":1.782,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H4 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.3Y.H4.ci_low",
+    "actual_key":"S1.pure_cross_field.3Y.H4.ci_low",
+    "target_value":1.63,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H4 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.3Y.H4.ci_high",
+    "actual_key":"S1.pure_cross_field.3Y.H4.ci_high",
+    "target_value":1.94,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H4 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.3Y.H4.ai_rate_pct",
+    "actual_key":"S1.single_field.3Y.H4.ai_rate_pct",
+    "target_value":20.57,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H4 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.3Y.H4.nonai_rate_pct",
+    "actual_key":"S1.single_field.3Y.H4.nonai_rate_pct",
+    "target_value":12.77,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H4 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.3Y.H4.difference_pp",
+    "actual_key":"S1.single_field.3Y.H4.difference_pp",
+    "target_value":7.81,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H4 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.3Y.H4.OR",
+    "actual_key":"S1.single_field.3Y.H4.OR",
+    "target_value":1.795,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H4 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.3Y.H4.ci_low",
+    "actual_key":"S1.single_field.3Y.H4.ci_low",
+    "target_value":1.66,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H4 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.3Y.H4.ci_high",
+    "actual_key":"S1.single_field.3Y.H4.ci_high",
+    "target_value":1.94,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H4 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.3Y.H5.ai_rate_pct",
+    "actual_key":"S1.main.3Y.H5.ai_rate_pct",
+    "target_value":28.28,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H5 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.3Y.H5.nonai_rate_pct",
+    "actual_key":"S1.main.3Y.H5.nonai_rate_pct",
+    "target_value":19.01,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H5 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.3Y.H5.difference_pp",
+    "actual_key":"S1.main.3Y.H5.difference_pp",
+    "target_value":9.27,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H5 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.3Y.H5.OR",
+    "actual_key":"S1.main.3Y.H5.OR",
+    "target_value":1.725,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H5 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.3Y.H5.ci_low",
+    "actual_key":"S1.main.3Y.H5.ci_low",
+    "target_value":1.63,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H5 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.3Y.H5.ci_high",
+    "actual_key":"S1.main.3Y.H5.ci_high",
+    "target_value":1.83,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H5 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.3Y.H5.ai_rate_pct",
+    "actual_key":"S1.pure_cross_field.3Y.H5.ai_rate_pct",
+    "target_value":13.32,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H5 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.3Y.H5.nonai_rate_pct",
+    "actual_key":"S1.pure_cross_field.3Y.H5.nonai_rate_pct",
+    "target_value":7.64,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H5 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.3Y.H5.difference_pp",
+    "actual_key":"S1.pure_cross_field.3Y.H5.difference_pp",
+    "target_value":5.69,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H5 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.3Y.H5.OR",
+    "actual_key":"S1.pure_cross_field.3Y.H5.OR",
+    "target_value":1.911,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H5 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.3Y.H5.ci_low",
+    "actual_key":"S1.pure_cross_field.3Y.H5.ci_low",
+    "target_value":1.76,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H5 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.3Y.H5.ci_high",
+    "actual_key":"S1.pure_cross_field.3Y.H5.ci_high",
+    "target_value":2.08,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H5 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.3Y.H5.ai_rate_pct",
+    "actual_key":"S1.single_field.3Y.H5.ai_rate_pct",
+    "target_value":5.37,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H5 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.3Y.H5.nonai_rate_pct",
+    "actual_key":"S1.single_field.3Y.H5.nonai_rate_pct",
+    "target_value":2.69,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H5 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.3Y.H5.difference_pp",
+    "actual_key":"S1.single_field.3Y.H5.difference_pp",
+    "target_value":2.69,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H5 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.3Y.H5.OR",
+    "actual_key":"S1.single_field.3Y.H5.OR",
+    "target_value":2.075,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H5 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.3Y.H5.ci_low",
+    "actual_key":"S1.single_field.3Y.H5.ci_low",
+    "target_value":1.93,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H5 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.3Y.H5.ci_high",
+    "actual_key":"S1.single_field.3Y.H5.ci_high",
+    "target_value":2.23,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 3Y \/ H5 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.5Y.H3.ai_rate_pct",
+    "actual_key":"S1.main.5Y.H3.ai_rate_pct",
+    "target_value":85.31,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H3 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.5Y.H3.nonai_rate_pct",
+    "actual_key":"S1.main.5Y.H3.nonai_rate_pct",
+    "target_value":78.93,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H3 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.5Y.H3.difference_pp",
+    "actual_key":"S1.main.5Y.H3.difference_pp",
+    "target_value":6.39,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H3 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.5Y.H3.OR",
+    "actual_key":"S1.main.5Y.H3.OR",
+    "target_value":1.578,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H3 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.5Y.H3.ci_low",
+    "actual_key":"S1.main.5Y.H3.ci_low",
+    "target_value":1.43,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H3 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.5Y.H3.ci_high",
+    "actual_key":"S1.main.5Y.H3.ci_high",
+    "target_value":1.74,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H3 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.5Y.H3.ai_rate_pct",
+    "actual_key":"S1.pure_cross_field.5Y.H3.ai_rate_pct",
+    "target_value":64.51,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H3 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.5Y.H3.nonai_rate_pct",
+    "actual_key":"S1.pure_cross_field.5Y.H3.nonai_rate_pct",
+    "target_value":54.62,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H3 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.5Y.H3.difference_pp",
+    "actual_key":"S1.pure_cross_field.5Y.H3.difference_pp",
+    "target_value":9.89,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H3 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.5Y.H3.OR",
+    "actual_key":"S1.pure_cross_field.5Y.H3.OR",
+    "target_value":1.544,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H3 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.5Y.H3.ci_low",
+    "actual_key":"S1.pure_cross_field.5Y.H3.ci_low",
+    "target_value":1.36,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H3 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.5Y.H3.ci_high",
+    "actual_key":"S1.pure_cross_field.5Y.H3.ci_high",
+    "target_value":1.75,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H3 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.5Y.H3.ai_rate_pct",
+    "actual_key":"S1.single_field.5Y.H3.ai_rate_pct",
+    "target_value":56.84,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H3 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.5Y.H3.nonai_rate_pct",
+    "actual_key":"S1.single_field.5Y.H3.nonai_rate_pct",
+    "target_value":46.24,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H3 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.5Y.H3.difference_pp",
+    "actual_key":"S1.single_field.5Y.H3.difference_pp",
+    "target_value":10.6,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H3 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.5Y.H3.OR",
+    "actual_key":"S1.single_field.5Y.H3.OR",
+    "target_value":1.554,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H3 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.5Y.H3.ci_low",
+    "actual_key":"S1.single_field.5Y.H3.ci_low",
+    "target_value":1.4,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H3 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.5Y.H3.ci_high",
+    "actual_key":"S1.single_field.5Y.H3.ci_high",
+    "target_value":1.72,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H3 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.5Y.H4.ai_rate_pct",
+    "actual_key":"S1.main.5Y.H4.ai_rate_pct",
+    "target_value":65.12,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H4 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.5Y.H4.nonai_rate_pct",
+    "actual_key":"S1.main.5Y.H4.nonai_rate_pct",
+    "target_value":53.13,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H4 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.5Y.H4.difference_pp",
+    "actual_key":"S1.main.5Y.H4.difference_pp",
+    "target_value":11.99,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H4 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.5Y.H4.OR",
+    "actual_key":"S1.main.5Y.H4.OR",
+    "target_value":1.685,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H4 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.5Y.H4.ci_low",
+    "actual_key":"S1.main.5Y.H4.ci_low",
+    "target_value":1.54,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H4 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.5Y.H4.ci_high",
+    "actual_key":"S1.main.5Y.H4.ci_high",
+    "target_value":1.85,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H4 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.5Y.H4.ai_rate_pct",
+    "actual_key":"S1.pure_cross_field.5Y.H4.ai_rate_pct",
+    "target_value":40.54,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H4 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.5Y.H4.nonai_rate_pct",
+    "actual_key":"S1.pure_cross_field.5Y.H4.nonai_rate_pct",
+    "target_value":28.74,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H4 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.5Y.H4.difference_pp",
+    "actual_key":"S1.pure_cross_field.5Y.H4.difference_pp",
+    "target_value":11.81,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H4 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.5Y.H4.OR",
+    "actual_key":"S1.pure_cross_field.5Y.H4.OR",
+    "target_value":1.739,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H4 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.5Y.H4.ci_low",
+    "actual_key":"S1.pure_cross_field.5Y.H4.ci_low",
+    "target_value":1.54,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H4 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.5Y.H4.ci_high",
+    "actual_key":"S1.pure_cross_field.5Y.H4.ci_high",
+    "target_value":1.97,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H4 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.5Y.H4.ai_rate_pct",
+    "actual_key":"S1.single_field.5Y.H4.ai_rate_pct",
+    "target_value":29.35,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H4 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.5Y.H4.nonai_rate_pct",
+    "actual_key":"S1.single_field.5Y.H4.nonai_rate_pct",
+    "target_value":19.48,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H4 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.5Y.H4.difference_pp",
+    "actual_key":"S1.single_field.5Y.H4.difference_pp",
+    "target_value":9.87,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H4 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.5Y.H4.OR",
+    "actual_key":"S1.single_field.5Y.H4.OR",
+    "target_value":1.744,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H4 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.5Y.H4.ci_low",
+    "actual_key":"S1.single_field.5Y.H4.ci_low",
+    "target_value":1.58,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H4 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.5Y.H4.ci_high",
+    "actual_key":"S1.single_field.5Y.H4.ci_high",
+    "target_value":1.93,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H4 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.5Y.H5.ai_rate_pct",
+    "actual_key":"S1.main.5Y.H5.ai_rate_pct",
+    "target_value":39.97,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H5 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.5Y.H5.nonai_rate_pct",
+    "actual_key":"S1.main.5Y.H5.nonai_rate_pct",
+    "target_value":29.18,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H5 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.5Y.H5.difference_pp",
+    "actual_key":"S1.main.5Y.H5.difference_pp",
+    "target_value":10.79,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H5 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.5Y.H5.OR",
+    "actual_key":"S1.main.5Y.H5.OR",
+    "target_value":1.653,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H5 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.5Y.H5.ci_low",
+    "actual_key":"S1.main.5Y.H5.ci_low",
+    "target_value":1.53,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H5 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.main.5Y.H5.ci_high",
+    "actual_key":"S1.main.5Y.H5.ci_high",
+    "target_value":1.79,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H5 \/ main",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.5Y.H5.ai_rate_pct",
+    "actual_key":"S1.pure_cross_field.5Y.H5.ai_rate_pct",
+    "target_value":20.5,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H5 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.5Y.H5.nonai_rate_pct",
+    "actual_key":"S1.pure_cross_field.5Y.H5.nonai_rate_pct",
+    "target_value":12.88,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H5 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.5Y.H5.difference_pp",
+    "actual_key":"S1.pure_cross_field.5Y.H5.difference_pp",
+    "target_value":7.63,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H5 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.5Y.H5.OR",
+    "actual_key":"S1.pure_cross_field.5Y.H5.OR",
+    "target_value":1.799,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H5 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.5Y.H5.ci_low",
+    "actual_key":"S1.pure_cross_field.5Y.H5.ci_low",
+    "target_value":1.62,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H5 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.pure_cross_field.5Y.H5.ci_high",
+    "actual_key":"S1.pure_cross_field.5Y.H5.ci_high",
+    "target_value":2.0,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H5 \/ pure_cross_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.5Y.H5.ai_rate_pct",
+    "actual_key":"S1.single_field.5Y.H5.ai_rate_pct",
+    "target_value":9.52,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H5 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.5Y.H5.nonai_rate_pct",
+    "actual_key":"S1.single_field.5Y.H5.nonai_rate_pct",
+    "target_value":5.07,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H5 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.5Y.H5.difference_pp",
+    "actual_key":"S1.single_field.5Y.H5.difference_pp",
+    "target_value":4.46,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H5 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.5Y.H5.OR",
+    "actual_key":"S1.single_field.5Y.H5.OR",
+    "target_value":2.001,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H5 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.5Y.H5.ci_low",
+    "actual_key":"S1.single_field.5Y.H5.ci_low",
+    "target_value":1.85,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H5 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"S1.single_field.5Y.H5.ci_high",
+    "actual_key":"S1.single_field.5Y.H5.ci_high",
+    "target_value":2.17,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Supplementary Table S1 5Y \/ H5 \/ single_field",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"binary.1Y.H1.ai_rate_pct",
+    "actual_key":"binary.1Y.H1.ai_rate_pct",
+    "target_value":67.23,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"binary.1Y.H1.nonai_rate_pct",
+    "actual_key":"binary.1Y.H1.nonai_rate_pct",
+    "target_value":60.77,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"binary.1Y.H1.difference_pp",
+    "actual_key":"binary.1Y.H1.difference_pp",
+    "target_value":6.46,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"binary.1Y.H1.OR",
+    "actual_key":"binary.1Y.H1.OR",
+    "target_value":1.332,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"binary.1Y.H1.ci_low",
+    "actual_key":"binary.1Y.H1.ci_low",
+    "target_value":1.304,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"binary.1Y.H1.ci_high",
+    "actual_key":"binary.1Y.H1.ci_high",
+    "target_value":1.362,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"cox.1Y.H1.HR",
+    "actual_key":"cox.1Y.H1.HR",
+    "target_value":1.198,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"cox.1Y.H1.ci_low",
+    "actual_key":"cox.1Y.H1.ci_low",
+    "target_value":1.178,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"cox.1Y.H1.ci_high",
+    "actual_key":"cox.1Y.H1.ci_high",
+    "target_value":1.218,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"binary.3Y.H1.ai_rate_pct",
+    "actual_key":"binary.3Y.H1.ai_rate_pct",
+    "target_value":90.57,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"binary.3Y.H1.nonai_rate_pct",
+    "actual_key":"binary.3Y.H1.nonai_rate_pct",
+    "target_value":86.64,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"binary.3Y.H1.difference_pp",
+    "actual_key":"binary.3Y.H1.difference_pp",
+    "target_value":3.93,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"binary.3Y.H1.OR",
+    "actual_key":"binary.3Y.H1.OR",
+    "target_value":1.488,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"binary.3Y.H1.ci_low",
+    "actual_key":"binary.3Y.H1.ci_low",
+    "target_value":1.446,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"binary.3Y.H1.ci_high",
+    "actual_key":"binary.3Y.H1.ci_high",
+    "target_value":1.531,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"cox.3Y.H1.HR",
+    "actual_key":"cox.3Y.H1.HR",
+    "target_value":1.188,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"cox.3Y.H1.ci_low",
+    "actual_key":"cox.3Y.H1.ci_low",
+    "target_value":1.167,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"cox.3Y.H1.ci_high",
+    "actual_key":"cox.3Y.H1.ci_high",
+    "target_value":1.21,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"binary.5Y.H1.ai_rate_pct",
+    "actual_key":"binary.5Y.H1.ai_rate_pct",
+    "target_value":95.18,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"binary.5Y.H1.nonai_rate_pct",
+    "actual_key":"binary.5Y.H1.nonai_rate_pct",
+    "target_value":92.84,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"binary.5Y.H1.difference_pp",
+    "actual_key":"binary.5Y.H1.difference_pp",
+    "target_value":2.34,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"binary.5Y.H1.OR",
+    "actual_key":"binary.5Y.H1.OR",
+    "target_value":1.528,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"binary.5Y.H1.ci_low",
+    "actual_key":"binary.5Y.H1.ci_low",
+    "target_value":1.459,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"binary.5Y.H1.ci_high",
+    "actual_key":"binary.5Y.H1.ci_high",
+    "target_value":1.6,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"cox.5Y.H1.HR",
+    "actual_key":"cox.5Y.H1.HR",
+    "target_value":1.164,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"cox.5Y.H1.ci_low",
+    "actual_key":"cox.5Y.H1.ci_low",
+    "target_value":1.137,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"cox.5Y.H1.ci_high",
+    "actual_key":"cox.5Y.H1.ci_high",
+    "target_value":1.191,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119 \/ Fig3 B121",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"benchmark.IRR",
+    "actual_key":"benchmark.IRR",
+    "target_value":1.392,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"benchmark.ci_low",
+    "actual_key":"benchmark.ci_low",
+    "target_value":1.36,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"benchmark.ci_high",
+    "actual_key":"benchmark.ci_high",
+    "target_value":1.426,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B119",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.1Y.H3.observed_pp",
+    "actual_key":"reference.main.1Y.H3.observed_pp",
+    "target_value":9.69,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.1Y.H3.reference_pp",
+    "actual_key":"reference.main.1Y.H3.reference_pp",
+    "target_value":6.75,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.1Y.H3.residual_pp",
+    "actual_key":"reference.main.1Y.H3.residual_pp",
+    "target_value":2.94,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.1Y.H4.observed_pp",
+    "actual_key":"reference.main.1Y.H4.observed_pp",
+    "target_value":7.75,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.1Y.H4.reference_pp",
+    "actual_key":"reference.main.1Y.H4.reference_pp",
+    "target_value":4.54,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.1Y.H4.residual_pp",
+    "actual_key":"reference.main.1Y.H4.residual_pp",
+    "target_value":3.21,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.1Y.H5.observed_pp",
+    "actual_key":"reference.main.1Y.H5.observed_pp",
+    "target_value":3.63,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.1Y.H5.reference_pp",
+    "actual_key":"reference.main.1Y.H5.reference_pp",
+    "target_value":2.98,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.1Y.H5.residual_pp",
+    "actual_key":"reference.main.1Y.H5.residual_pp",
+    "target_value":0.64,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.3Y.H3.observed_pp",
+    "actual_key":"reference.main.3Y.H3.observed_pp",
+    "target_value":8.57,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.3Y.H3.reference_pp",
+    "actual_key":"reference.main.3Y.H3.reference_pp",
+    "target_value":5.9,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.3Y.H3.residual_pp",
+    "actual_key":"reference.main.3Y.H3.residual_pp",
+    "target_value":2.66,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.3Y.H4.observed_pp",
+    "actual_key":"reference.main.3Y.H4.observed_pp",
+    "target_value":12.35,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.3Y.H4.reference_pp",
+    "actual_key":"reference.main.3Y.H4.reference_pp",
+    "target_value":9.22,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.3Y.H4.residual_pp",
+    "actual_key":"reference.main.3Y.H4.residual_pp",
+    "target_value":3.13,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.3Y.H5.observed_pp",
+    "actual_key":"reference.main.3Y.H5.observed_pp",
+    "target_value":9.27,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.3Y.H5.reference_pp",
+    "actual_key":"reference.main.3Y.H5.reference_pp",
+    "target_value":8.53,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.3Y.H5.residual_pp",
+    "actual_key":"reference.main.3Y.H5.residual_pp",
+    "target_value":0.75,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.5Y.H3.observed_pp",
+    "actual_key":"reference.main.5Y.H3.observed_pp",
+    "target_value":6.39,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.5Y.H3.reference_pp",
+    "actual_key":"reference.main.5Y.H3.reference_pp",
+    "target_value":4.25,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.5Y.H3.residual_pp",
+    "actual_key":"reference.main.5Y.H3.residual_pp",
+    "target_value":2.14,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.5Y.H4.observed_pp",
+    "actual_key":"reference.main.5Y.H4.observed_pp",
+    "target_value":11.99,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.5Y.H4.reference_pp",
+    "actual_key":"reference.main.5Y.H4.reference_pp",
+    "target_value":9.24,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.5Y.H4.residual_pp",
+    "actual_key":"reference.main.5Y.H4.residual_pp",
+    "target_value":2.75,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.5Y.H5.observed_pp",
+    "actual_key":"reference.main.5Y.H5.observed_pp",
+    "target_value":10.79,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.5Y.H5.reference_pp",
+    "actual_key":"reference.main.5Y.H5.reference_pp",
+    "target_value":10.03,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.5Y.H5.residual_pp",
+    "actual_key":"reference.main.5Y.H5.residual_pp",
+    "target_value":0.76,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig4",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.1Y.supported_pairs",
+    "actual_key":"reference.main.1Y.supported_pairs",
+    "target_value":224508.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B133",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.1Y.excluded_pairs",
+    "actual_key":"reference.main.1Y.excluded_pairs",
+    "target_value":100.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B133",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.3Y.supported_pairs",
+    "actual_key":"reference.main.3Y.supported_pairs",
+    "target_value":156542.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B133",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.3Y.excluded_pairs",
+    "actual_key":"reference.main.3Y.excluded_pairs",
+    "target_value":41.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B133",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.5Y.supported_pairs",
+    "actual_key":"reference.main.5Y.supported_pairs",
+    "target_value":87709.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B133",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.5Y.excluded_pairs",
+    "actual_key":"reference.main.5Y.excluded_pairs",
+    "target_value":21.0,
+    "unit":"count",
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B133",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.1Y.H4.residual_pp.source_occurrence1",
+    "actual_key":"reference.main.1Y.H4.residual_pp",
+    "target_value":3.21,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.1Y.H4.ci_low_pp",
+    "actual_key":"reference.main.1Y.H4.ci_low_pp",
+    "target_value":3.05,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.1Y.H4.ci_high_pp",
+    "actual_key":"reference.main.1Y.H4.ci_high_pp",
+    "target_value":3.38,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.3Y.H4.residual_pp.source_occurrence1",
+    "actual_key":"reference.main.3Y.H4.residual_pp",
+    "target_value":3.13,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.3Y.H4.ci_low_pp",
+    "actual_key":"reference.main.3Y.H4.ci_low_pp",
+    "target_value":2.87,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.3Y.H4.ci_high_pp",
+    "actual_key":"reference.main.3Y.H4.ci_high_pp",
+    "target_value":3.39,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.5Y.H4.residual_pp.source_occurrence1",
+    "actual_key":"reference.main.5Y.H4.residual_pp",
+    "target_value":2.75,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.5Y.H4.ci_low_pp",
+    "actual_key":"reference.main.5Y.H4.ci_low_pp",
+    "target_value":2.41,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.main.5Y.H4.ci_high_pp",
+    "actual_key":"reference.main.5Y.H4.ci_high_pp",
+    "target_value":3.08,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.nonai.1Y.H4.residual_pp",
+    "actual_key":"reference.nonai.1Y.H4.residual_pp",
+    "target_value":3.75,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.nonai.1Y.H4.ci_low_pp",
+    "actual_key":"reference.nonai.1Y.H4.ci_low_pp",
+    "target_value":3.58,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.nonai.1Y.H4.ci_high_pp",
+    "actual_key":"reference.nonai.1Y.H4.ci_high_pp",
+    "target_value":3.93,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.nonai.3Y.H4.residual_pp",
+    "actual_key":"reference.nonai.3Y.H4.residual_pp",
+    "target_value":3.32,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.nonai.3Y.H4.ci_low_pp",
+    "actual_key":"reference.nonai.3Y.H4.ci_low_pp",
+    "target_value":3.05,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.nonai.3Y.H4.ci_high_pp",
+    "actual_key":"reference.nonai.3Y.H4.ci_high_pp",
+    "target_value":3.58,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.nonai.5Y.H4.residual_pp",
+    "actual_key":"reference.nonai.5Y.H4.residual_pp",
+    "target_value":2.43,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.nonai.5Y.H4.ci_low_pp",
+    "actual_key":"reference.nonai.5Y.H4.ci_low_pp",
+    "target_value":2.09,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.nonai.5Y.H4.ci_high_pp",
+    "actual_key":"reference.nonai.5Y.H4.ci_high_pp",
+    "target_value":2.77,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.grant.1Y.H4.residual_pp",
+    "actual_key":"reference.grant.1Y.H4.residual_pp",
+    "target_value":3.21,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.grant.1Y.H4.ci_low_pp",
+    "actual_key":"reference.grant.1Y.H4.ci_low_pp",
+    "target_value":3.04,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.grant.1Y.H4.ci_high_pp",
+    "actual_key":"reference.grant.1Y.H4.ci_high_pp",
+    "target_value":3.37,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.grant.3Y.H4.residual_pp",
+    "actual_key":"reference.grant.3Y.H4.residual_pp",
+    "target_value":3.13,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.grant.3Y.H4.ci_low_pp",
+    "actual_key":"reference.grant.3Y.H4.ci_low_pp",
+    "target_value":2.9,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.grant.3Y.H4.ci_high_pp",
+    "actual_key":"reference.grant.3Y.H4.ci_high_pp",
+    "target_value":3.4,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.grant.5Y.H4.residual_pp",
+    "actual_key":"reference.grant.5Y.H4.residual_pp",
+    "target_value":2.75,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.grant.5Y.H4.ci_low_pp",
+    "actual_key":"reference.grant.5Y.H4.ci_low_pp",
+    "target_value":2.41,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.grant.5Y.H4.ci_high_pp",
+    "actual_key":"reference.grant.5Y.H4.ci_high_pp",
+    "target_value":3.08,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.rebuilt.1Y.H4.residual_pp",
+    "actual_key":"reference.rebuilt.1Y.H4.residual_pp",
+    "target_value":3.22,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.rebuilt.1Y.H4.ci_low_pp",
+    "actual_key":"reference.rebuilt.1Y.H4.ci_low_pp",
+    "target_value":2.91,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.rebuilt.1Y.H4.ci_high_pp",
+    "actual_key":"reference.rebuilt.1Y.H4.ci_high_pp",
+    "target_value":3.45,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.rebuilt.3Y.H4.residual_pp",
+    "actual_key":"reference.rebuilt.3Y.H4.residual_pp",
+    "target_value":3.11,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.rebuilt.3Y.H4.ci_low_pp",
+    "actual_key":"reference.rebuilt.3Y.H4.ci_low_pp",
+    "target_value":2.72,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.rebuilt.3Y.H4.ci_high_pp",
+    "actual_key":"reference.rebuilt.3Y.H4.ci_high_pp",
+    "target_value":3.51,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.rebuilt.5Y.H4.residual_pp",
+    "actual_key":"reference.rebuilt.5Y.H4.residual_pp",
+    "target_value":2.79,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.rebuilt.5Y.H4.ci_low_pp",
+    "actual_key":"reference.rebuilt.5Y.H4.ci_low_pp",
+    "target_value":2.29,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"reference.rebuilt.5Y.H4.ci_high_pp",
+    "actual_key":"reference.rebuilt.5Y.H4.ci_high_pp",
+    "target_value":3.29,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6c B142 \/ B133\/B140",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.1Y.ai_rate_pct",
+    "actual_key":"third.1Y.ai_rate_pct",
+    "target_value":13.7,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.1Y.nonai_rate_pct",
+    "actual_key":"third.1Y.nonai_rate_pct",
+    "target_value":8.4,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.1Y.difference_pp",
+    "actual_key":"third.1Y.difference_pp",
+    "target_value":5.29,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.1Y.difference_ci_low_pp",
+    "actual_key":"third.1Y.difference_ci_low_pp",
+    "target_value":5.12,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.1Y.difference_ci_high_pp",
+    "actual_key":"third.1Y.difference_ci_high_pp",
+    "target_value":5.48,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.1Y.OR",
+    "actual_key":"third.1Y.OR",
+    "target_value":1.752,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.1Y.ci_low",
+    "actual_key":"third.1Y.ci_low",
+    "target_value":1.67,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.1Y.ci_high",
+    "actual_key":"third.1Y.ci_high",
+    "target_value":1.84,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.3Y.ai_rate_pct",
+    "actual_key":"third.3Y.ai_rate_pct",
+    "target_value":38.53,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.3Y.nonai_rate_pct",
+    "actual_key":"third.3Y.nonai_rate_pct",
+    "target_value":26.61,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.3Y.difference_pp",
+    "actual_key":"third.3Y.difference_pp",
+    "target_value":11.92,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.3Y.difference_ci_low_pp",
+    "actual_key":"third.3Y.difference_ci_low_pp",
+    "target_value":11.62,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.3Y.difference_ci_high_pp",
+    "actual_key":"third.3Y.difference_ci_high_pp",
+    "target_value":12.23,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.3Y.OR",
+    "actual_key":"third.3Y.OR",
+    "target_value":1.777,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.3Y.ci_low",
+    "actual_key":"third.3Y.ci_low",
+    "target_value":1.68,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.3Y.ci_high",
+    "actual_key":"third.3Y.ci_high",
+    "target_value":1.88,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.5Y.ai_rate_pct",
+    "actual_key":"third.5Y.ai_rate_pct",
+    "target_value":51.46,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.5Y.nonai_rate_pct",
+    "actual_key":"third.5Y.nonai_rate_pct",
+    "target_value":38.14,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.5Y.difference_pp",
+    "actual_key":"third.5Y.difference_pp",
+    "target_value":13.32,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.5Y.difference_ci_low_pp",
+    "actual_key":"third.5Y.difference_ci_low_pp",
+    "target_value":12.87,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.5Y.difference_ci_high_pp",
+    "actual_key":"third.5Y.difference_ci_high_pp",
+    "target_value":13.77,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.5Y.OR",
+    "actual_key":"third.5Y.OR",
+    "target_value":1.761,
+    "unit":null,
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.5Y.ci_low",
+    "actual_key":"third.5Y.ci_low",
+    "target_value":1.62,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"third.5Y.ci_high",
+    "actual_key":"third.5Y.ci_high",
+    "target_value":1.91,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B138 \/ Fig6a,b",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.1Y.ai_establishment_among_arrivals_pct",
+    "actual_key":"diagnostic.1Y.ai_establishment_among_arrivals_pct",
+    "target_value":46.85,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125 \/ Fig5 B135",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.1Y.nonai_establishment_among_arrivals_pct",
+    "actual_key":"diagnostic.1Y.nonai_establishment_among_arrivals_pct",
+    "target_value":39.09,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125 \/ Fig5 B135",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.1Y.ai_global_wait_median_days",
+    "actual_key":"diagnostic.1Y.ai_global_wait_median_days",
+    "target_value":75.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125 \/ Fig5 B135",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.1Y.nonai_global_wait_median_days",
+    "actual_key":"diagnostic.1Y.nonai_global_wait_median_days",
+    "target_value":79.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125 \/ Fig5 B135",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.3Y.ai_establishment_among_arrivals_pct",
+    "actual_key":"diagnostic.3Y.ai_establishment_among_arrivals_pct",
+    "target_value":68.35,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125 \/ Fig5 B135",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.3Y.nonai_establishment_among_arrivals_pct",
+    "actual_key":"diagnostic.3Y.nonai_establishment_among_arrivals_pct",
+    "target_value":58.91,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125 \/ Fig5 B135",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.3Y.ai_global_wait_median_days",
+    "actual_key":"diagnostic.3Y.ai_global_wait_median_days",
+    "target_value":157.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125 \/ Fig5 B135",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.3Y.nonai_global_wait_median_days",
+    "actual_key":"diagnostic.3Y.nonai_global_wait_median_days",
+    "target_value":176.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125 \/ Fig5 B135",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.5Y.ai_establishment_among_arrivals_pct",
+    "actual_key":"diagnostic.5Y.ai_establishment_among_arrivals_pct",
+    "target_value":76.33,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125 \/ Fig5 B135",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.5Y.nonai_establishment_among_arrivals_pct",
+    "actual_key":"diagnostic.5Y.nonai_establishment_among_arrivals_pct",
+    "target_value":67.31,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125 \/ Fig5 B135",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.5Y.ai_global_wait_median_days",
+    "actual_key":"diagnostic.5Y.ai_global_wait_median_days",
+    "target_value":196.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125 \/ Fig5 B135",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.5Y.nonai_global_wait_median_days",
+    "actual_key":"diagnostic.5Y.nonai_global_wait_median_days",
+    "target_value":224.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125 \/ Fig5 B135",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.1Y.conditional_difference_pp",
+    "actual_key":"diagnostic.1Y.conditional_difference_pp",
+    "target_value":7.76,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.1Y.conditional_ci_low_pp",
+    "actual_key":"diagnostic.1Y.conditional_ci_low_pp",
+    "target_value":7.32,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.1Y.conditional_ci_high_pp",
+    "actual_key":"diagnostic.1Y.conditional_ci_high_pp",
+    "target_value":8.19,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.1Y.ai_grant_to_arrival_median_days",
+    "actual_key":"diagnostic.1Y.ai_grant_to_arrival_median_days",
+    "target_value":114.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.1Y.nonai_grant_to_arrival_median_days",
+    "actual_key":"diagnostic.1Y.nonai_grant_to_arrival_median_days",
+    "target_value":126.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.1Y.ai_remaining_observation_median_days",
+    "actual_key":"diagnostic.1Y.ai_remaining_observation_median_days",
+    "target_value":251.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.1Y.nonai_remaining_observation_median_days",
+    "actual_key":"diagnostic.1Y.nonai_remaining_observation_median_days",
+    "target_value":240.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.1Y.ai_same_field_wait_median_days",
+    "actual_key":"diagnostic.1Y.ai_same_field_wait_median_days",
+    "target_value":68.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.1Y.nonai_same_field_wait_median_days",
+    "actual_key":"diagnostic.1Y.nonai_same_field_wait_median_days",
+    "target_value":71.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.3Y.conditional_difference_pp",
+    "actual_key":"diagnostic.3Y.conditional_difference_pp",
+    "target_value":9.44,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.3Y.conditional_ci_low_pp",
+    "actual_key":"diagnostic.3Y.conditional_ci_low_pp",
+    "target_value":9.07,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.3Y.conditional_ci_high_pp",
+    "actual_key":"diagnostic.3Y.conditional_ci_high_pp",
+    "target_value":9.82,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.3Y.ai_grant_to_arrival_median_days",
+    "actual_key":"diagnostic.3Y.ai_grant_to_arrival_median_days",
+    "target_value":203.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.3Y.nonai_grant_to_arrival_median_days",
+    "actual_key":"diagnostic.3Y.nonai_grant_to_arrival_median_days",
+    "target_value":238.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.3Y.ai_remaining_observation_median_days",
+    "actual_key":"diagnostic.3Y.ai_remaining_observation_median_days",
+    "target_value":893.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.3Y.nonai_remaining_observation_median_days",
+    "actual_key":"diagnostic.3Y.nonai_remaining_observation_median_days",
+    "target_value":858.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.3Y.ai_same_field_wait_median_days",
+    "actual_key":"diagnostic.3Y.ai_same_field_wait_median_days",
+    "target_value":135.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.3Y.nonai_same_field_wait_median_days",
+    "actual_key":"diagnostic.3Y.nonai_same_field_wait_median_days",
+    "target_value":154.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.5Y.conditional_difference_pp",
+    "actual_key":"diagnostic.5Y.conditional_difference_pp",
+    "target_value":9.02,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.5Y.conditional_ci_low_pp",
+    "actual_key":"diagnostic.5Y.conditional_ci_low_pp",
+    "target_value":8.56,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.5Y.conditional_ci_high_pp",
+    "actual_key":"diagnostic.5Y.conditional_ci_high_pp",
+    "target_value":9.47,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.5Y.ai_grant_to_arrival_median_days",
+    "actual_key":"diagnostic.5Y.ai_grant_to_arrival_median_days",
+    "target_value":245.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.5Y.nonai_grant_to_arrival_median_days",
+    "actual_key":"diagnostic.5Y.nonai_grant_to_arrival_median_days",
+    "target_value":289.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.5Y.ai_remaining_observation_median_days",
+    "actual_key":"diagnostic.5Y.ai_remaining_observation_median_days",
+    "target_value":1581.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.5Y.nonai_remaining_observation_median_days",
+    "actual_key":"diagnostic.5Y.nonai_remaining_observation_median_days",
+    "target_value":1537.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.5Y.ai_same_field_wait_median_days",
+    "actual_key":"diagnostic.5Y.ai_same_field_wait_median_days",
+    "target_value":166.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"diagnostic.5Y.nonai_same_field_wait_median_days",
+    "actual_key":"diagnostic.5Y.nonai_same_field_wait_median_days",
+    "target_value":189.0,
+    "unit":null,
+    "absolute_tolerance":0.0,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B125",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig5.1Y.ai_conditional_rate",
+    "actual_key":"diagnostic.1Y.ai_establishment_among_arrivals_pct",
+    "target_value":46.9,
+    "unit":null,
+    "absolute_tolerance":0.05,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig5 printed one-decimal label",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig5.1Y.nonai_conditional_rate",
+    "actual_key":"diagnostic.1Y.nonai_establishment_among_arrivals_pct",
+    "target_value":39.1,
+    "unit":null,
+    "absolute_tolerance":0.05,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig5 printed one-decimal label",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig5.3Y.ai_conditional_rate",
+    "actual_key":"diagnostic.3Y.ai_establishment_among_arrivals_pct",
+    "target_value":68.3,
+    "unit":null,
+    "absolute_tolerance":0.05,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig5 printed one-decimal label",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig5.3Y.nonai_conditional_rate",
+    "actual_key":"diagnostic.3Y.nonai_establishment_among_arrivals_pct",
+    "target_value":58.9,
+    "unit":null,
+    "absolute_tolerance":0.05,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig5 printed one-decimal label",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig5.5Y.ai_conditional_rate",
+    "actual_key":"diagnostic.5Y.ai_establishment_among_arrivals_pct",
+    "target_value":76.3,
+    "unit":null,
+    "absolute_tolerance":0.05,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig5 printed one-decimal label",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig5.5Y.nonai_conditional_rate",
+    "actual_key":"diagnostic.5Y.nonai_establishment_among_arrivals_pct",
+    "target_value":67.3,
+    "unit":null,
+    "absolute_tolerance":0.05,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig5 printed one-decimal label",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig6b.original.1Y.difference_pp",
+    "actual_key":"binary.1Y.H4.difference_pp",
+    "target_value":7.75,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6b \/ body original two-family contrast",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig6b.original.3Y.difference_pp",
+    "actual_key":"binary.3Y.H4.difference_pp",
+    "target_value":12.35,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6b \/ body original two-family contrast",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig6b.original.5Y.difference_pp",
+    "actual_key":"binary.5Y.H4.difference_pp",
+    "target_value":11.99,
+    "unit":null,
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6b \/ body original two-family contrast",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig6a.original.1Y.ai_rate_pct",
+    "actual_key":"binary.1Y.H4.ai_rate_pct",
+    "target_value":23.9,
+    "unit":null,
+    "absolute_tolerance":0.05,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6a printed original-threshold rate",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig6a.original.1Y.nonai_rate_pct",
+    "actual_key":"binary.1Y.H4.nonai_rate_pct",
+    "target_value":16.2,
+    "unit":null,
+    "absolute_tolerance":0.05,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6a printed original-threshold rate",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig6a.third.1Y.ai_rate_pct",
+    "actual_key":"third.1Y.ai_rate_pct",
+    "target_value":13.7,
+    "unit":null,
+    "absolute_tolerance":0.05,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6a printed third-family-threshold rate",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig6a.third.1Y.nonai_rate_pct",
+    "actual_key":"third.1Y.nonai_rate_pct",
+    "target_value":8.4,
+    "unit":null,
+    "absolute_tolerance":0.05,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6a printed third-family-threshold rate",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig6a.original.3Y.ai_rate_pct",
+    "actual_key":"binary.3Y.H4.ai_rate_pct",
+    "target_value":52.9,
+    "unit":null,
+    "absolute_tolerance":0.05,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6a printed original-threshold rate",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig6a.original.3Y.nonai_rate_pct",
+    "actual_key":"binary.3Y.H4.nonai_rate_pct",
+    "target_value":40.5,
+    "unit":null,
+    "absolute_tolerance":0.05,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6a printed original-threshold rate",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig6a.third.3Y.ai_rate_pct",
+    "actual_key":"third.3Y.ai_rate_pct",
+    "target_value":38.5,
+    "unit":null,
+    "absolute_tolerance":0.05,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6a printed third-family-threshold rate",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig6a.third.3Y.nonai_rate_pct",
+    "actual_key":"third.3Y.nonai_rate_pct",
+    "target_value":26.6,
+    "unit":null,
+    "absolute_tolerance":0.05,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6a printed third-family-threshold rate",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig6a.original.5Y.ai_rate_pct",
+    "actual_key":"binary.5Y.H4.ai_rate_pct",
+    "target_value":65.1,
+    "unit":null,
+    "absolute_tolerance":0.05,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6a printed original-threshold rate",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig6a.original.5Y.nonai_rate_pct",
+    "actual_key":"binary.5Y.H4.nonai_rate_pct",
+    "target_value":53.1,
+    "unit":null,
+    "absolute_tolerance":0.05,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6a printed original-threshold rate",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig6a.third.5Y.ai_rate_pct",
+    "actual_key":"third.5Y.ai_rate_pct",
+    "target_value":51.5,
+    "unit":null,
+    "absolute_tolerance":0.05,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6a printed third-family-threshold rate",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig6a.third.5Y.nonai_rate_pct",
+    "actual_key":"third.5Y.nonai_rate_pct",
+    "target_value":38.1,
+    "unit":null,
+    "absolute_tolerance":0.05,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig6a printed third-family-threshold rate",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"fig3.5Y.H3.difference_pp",
+    "actual_key":"S1.main.5Y.H3.difference_pp",
+    "target_value":6.39,
+    "unit":"pp",
+    "absolute_tolerance":0.005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"Fig3 latest image B121 printed label",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"missing.lower.5Y.h4.OR",
+    "actual_key":"missing.lower.5Y.h4.OR",
+    "target_value":0.976,
+    "unit":"OR",
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B153",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  },
+  {
+    "target_id":"missing.lower.5Y.h5.OR",
+    "actual_key":"missing.lower.5Y.h5.OR",
+    "target_value":0.934,
+    "unit":"OR",
+    "absolute_tolerance":0.0005,
+    "source":"v4-李旭泽 - 1012.docx",
+    "locator":"B153",
+    "purpose":"VALIDATION_ONLY_NEVER_RESULT_GENERATION_INPUT"
+  }
+]

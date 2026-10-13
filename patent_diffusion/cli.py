@@ -7,9 +7,23 @@ from . import __version__
 
 
 def main():
+    import sys
+    if len(sys.argv)>1 and sys.argv[1]=='reproduce':
+        from .reproduce import main as reproduce_main
+        sys.argv.pop(1)
+        return reproduce_main()
+    if len(sys.argv)>1 and sys.argv[1]=='ui':
+        from .ui import main as ui_main
+        sys.argv.pop(1)
+        return ui_main()
     parser = argparse.ArgumentParser(prog="patent-diffusion")
     parser.add_argument("--version", action="version", version=__version__)
     sub = parser.add_subparsers(dest="command", required=True)
+    compare = sub.add_parser('compare', help='Compare two named country/technology groups using an explicit JSON configuration')
+    for name in ('families','edges','config','output'):
+        compare.add_argument('--'+name,type=Path,required=True)
+    sub.add_parser('reproduce',help='Full study execution from both reviewer bundles; use reproduce --help')
+    sub.add_parser('ui',help='Open a local-only comparison interface; use ui --help')
     demo = sub.add_parser("demo", help="Generate 400 synthetic pairs and run all three windows in smoke mode")
     demo.add_argument("--output", type=Path, required=True, help="New directory for synthetic inputs and results")
     validate = sub.add_parser("validate", help="Check preprocessed tables and classification gates without fitting models")
@@ -25,6 +39,11 @@ def main():
     analyze.add_argument("--smoke", action="store_true", help="At most 50 simulations and 200 bootstrap draws; diagnostics only")
     args = parser.parse_args()
     try:
+        if args.command == 'compare':
+            from .compare import run as compare_run
+            compare_run(args.families,args.edges,args.config,args.output)
+            print(json.dumps({'status':'COMPUTED','output':str(args.output.resolve())}))
+            return
         from .pipeline import run, validate_inputs
         if args.command == "validate":
             print(json.dumps(validate_inputs(args.families, args.edges), indent=2))

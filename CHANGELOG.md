@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.0
+
+- Add complete-bundle execution, stage receipts and resumption checks.
+- Implement paper sensitivities and four reference-pool variants.
+- Add a neutral two-group CLI, local upload/report interface and bilingual tutorial.
+- Add independent numerical target verification and source-record counting.
+- Preserve real-data distribution restrictions separately from code licensing.
+
+
 ## 0.1.0 — unreleased experimental alpha
 
 - Package the four milestones, matched comparisons and main opportunity reference.

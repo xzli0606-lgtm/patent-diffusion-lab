@@ -1,4 +1,8 @@
-# Experimental analysis decisions
+# Current v4 execution decisions
+
+The current full-sample interface is `reproduce`; see [REPRODUCTION.md](docs/REPRODUCTION.md) for exact seeds, source boundaries and numerical acceptance. Current comparisons use the latest v4 manuscript. The historical prototype decisions below describe 0.1.0, not the expanded 0.2.0 scope.
+
+## Historical 0.1.0 experiment
 
 - User-approved scope: the four milestones, basic matched comparison, and the opportunity-conditioned field reference.
 - User-approved baseline: retain the v3 paper definitions, use the repaired reproduction implementation, and report differences against the paper.

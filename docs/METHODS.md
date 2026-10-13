@@ -58,24 +58,11 @@ Smoke mode caps these at 50 and 200 and carries no precision-pass claim.
 Frozen seeds: folds 20260918, simulations 20260919 plus replicate index,
 bootstrap 20260920. The separate `--seed` controls pair sampling only.
 
-## Coverage of the archived research contract
+## Coverage by entry point
 
-| Component | Public CLI status |
-|---|---|
-| Four milestones; three complete windows | Implemented |
-| Main matched incidence, time and count comparisons | Implemented; estimability depends on data |
-| Pooled cross-fitted reference and conditional-on-pool intervals | Implemented |
-| Minimum support, pair exclusion, MCSE reporting | Implemented |
-| Rebuild-pool bootstrap sensitivity | Historical code retained; not wired into analyze |
-| Non-AI-only donors, grant-cohort, unique-field and cross-only sensitivities | Not executed by analyze |
-| Third-family establishment and post-H4 conditional-arrival sensitivity | Not included in the public CLI |
-| Reference-residual six-test significance adjustment | Not included; reported Holm values are incidence tests |
-| Full source-data construction, labelling and matching | Upstream; not part of this package |
+`reproduce` executes the full v4 analysis profile: main models, common/non-AI/grant-cohort references, rebuilt-pool bootstrap, third-family endpoint, stricter field rules, missingness bounds, fixed-cohort/top-tail/AI-label sensitivities, waiting times and prespecified Holm families. See [reproduction](REPRODUCTION.md).
 
-`reference_contract.json` is an archived study specification, not a statement that
-this package executes every item. `_reference.main` and `_pool.main` are historical
-archive helpers with private input parity guards; they are not supported public
-entry points. The supported interface is `patent-diffusion` / `python -m patent_diffusion`.
+`compare` accepts explicit country or technology groups and fits exact-matched incidence and entry-time models. `analyze` retains the original sampled canonical-input workflow. None retrieves databases or trains labels. Original source-population matching is upstream; generic matching is explicitly configured and audited.
 
 The reference is conditional descriptive evidence. It does not identify causal
 effects, mediation proportions, adoption, commercial use or mechanism shares.
