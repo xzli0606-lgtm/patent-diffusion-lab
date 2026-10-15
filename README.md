@@ -2,7 +2,7 @@
 
 [中文](README.zh-CN.md) · [Portable methods](docs/PORTABLE_V1_METHODS.md) · [Preparation and tutorial](docs/PREPARE_V1.md) · [Standard inputs](docs/INPUT_SCHEMA_V1.md) · [Result interpretation](docs/VALIDATION_V1.md)
 
-**School of Management, Zhengzhou University · 姜红丙、李旭泽**
+**School of Management, Zhengzhou University · Hongbing Jiang、Xuze Li**
 
 **Version 1.0.0 · Python 3.12 · Apache-2.0**
 
