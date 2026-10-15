@@ -24,11 +24,11 @@ The first command computes; the second reads targets only for checking. Append `
 - Four cumulative dated milestones; complete follow-up and pairwise classification exclusions.
 - Matched conditional logit, pair-stratified Cox with Efron ties, matching-cell sandwich intervals, proportional-hazards time-trend diagnostics and piecewise models.
 - Exposure-adjusted citation intensity and supporting count models.
-- Whole-field-set references: common, non-AI donor, grant-cohort-stratified and rebuilt pools; supported-pair exclusions remain separate.
+- Whole-field-set references: common, non-AI donor, grant-cohort-stratified and fixed-support reweighted pools; supported-pair exclusions remain separate.
 - Third-family threshold, pure cross-field and single-field rules, fixed five-year cohort, top-one-percent citation exclusions, missing-classification extreme bounds, fixed-pair focal-score AI sensitivity, waiting times and state occupancy.
 - Prespecified Holm families, tables and long-form scalar outputs.
 
-Formal settings in `patent_diffusion/reproduce.py`: 2,000 conditional bootstrap replications; reference simulations start at 2,000 and increase to at most 10,000 until MCSE is at most 0.1 pp; 200 rebuilt-pool replications. Diagnostic `demo` and `--smoke` settings are not formal reproduction evidence.
+Formal settings in `patent_diffusion/reproduce.py`: 2,000 conditional bootstrap replications; reference simulations start at 2,000 and increase to at most 10,000 until MCSE is at most 0.1 pp; 200 fixed-support reweighting replications. Diagnostic `demo` and `--smoke` settings are not formal reproduction evidence.
 
 ## Seeds and corrections
 
@@ -50,8 +50,4 @@ Settings derive from original method records, not seed searches. The older 2026-
 
 `validation_report.csv` retains every target, original value, computed value, difference, tolerance, source and status. `outputs/tables/` contains Table 4, Table S1, third-family and waiting-time outputs. `outputs/all_result_scalars.csv` retains every numerical result. `outputs/opportunity_reference/all_reference_results.csv` separates observed, reference and residual differences. Figures are not redrawn; numerical source outputs remain available.
 
-Both the first full run and the fresh-environment cold start passed all **410 listed numerical targets** at manuscript precision. All 59 parsed result files agreed exactly between runs. See the [acceptance record](ACCEPTANCE.md) for executed checks and boundaries.
-
 Counts/indicators require exact agreement. Raw numbers use predeclared `rtol=1e-8`, `atol=1e-10`; displayed results use declared rounding precision. Tolerances are not relaxed after seeing differences.
-
-首轮和冷启动各410项数值均通过显示精度核对；59个结果文件的解析值精确一致。上游数据库重建未执行；数据分发权限不由数值一致性推导。

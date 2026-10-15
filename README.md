@@ -1,132 +1,59 @@
 # Patent Diffusion Lab
 
-[中文说明](README.zh-CN.md) · [Methods](docs/METHODS.md) · [Input schema](docs/INPUT_SCHEMA.md) · [Related tools](docs/RELATED_PROJECTS.md)
+[中文](README.zh-CN.md) · [Portable methods](docs/PORTABLE_V1_METHODS.md) · [Preparation and tutorial](docs/PREPARE_V1.md) · [Standard inputs](docs/INPUT_SCHEMA_V1.md) · [Result interpretation](docs/VALIDATION_V1.md)
 
-**郑州大学管理学院 · 姜红丙、李旭泽**
+**School of Management, Zhengzhou University · 姜红丙、李旭泽**
 
-School of Management, Zhengzhou University
+**Version 1.0.0 · Python 3.12 · Apache-2.0**
 
-An offline research tool for **four cumulative patent-citation milestones**, matched
-AI/non-AI comparisons, and an opportunity-conditioned field reference. It turns
-preprocessed DOCDB-family citation events into auditable JSON and Markdown reports.
+Patent Diffusion Lab analyses patent citation diffusion from local family and event records. It provides citation milestones, matched two-group comparisons and cross-fitted opportunity references, with traceable inputs, reproducible configurations and numerical reports.
 
-**Version 0.2.0, Python 3.12.** Includes a full-sample paper execution profile,
-a generic matched two-group CLI, and a local browser interface. See
-[reproduction and acceptance scope](docs/REPRODUCTION.md),
-[English/中文 portable guide](docs/PORTABLE_GUIDE.md), and
-[data redistribution review](docs/DISTRIBUTION_REVIEW.md).
+Use `compare --profile portable_v1` for standard-input studies and `reproduce` for the associated paper's frozen analysis. The workflows have distinct statistical specifications; see [Paper reproduction](docs/REPRODUCTION.md) and the [portable method contract](docs/PORTABLE_V1_METHODS.md).
 
-Full-sample and cold-start checks: **410/410 manuscript targets, 59/59 parsed
-result files, 26 tests**. See [executed acceptance and limitations](docs/ACCEPTANCE.md).
-The real AI/non-AI archives remain local and are not included in this code release.
+## Install and run
+
+Create and activate a Python 3.12 virtual environment. From this source tree:
 
 ```sh
 python -m pip install -r requirements.lock
 python -m pip install --no-deps .
-python -m patent_diffusion ui --workdir outputs/local-ui
+python -m patent_diffusion --version
+python -m patent_diffusion.demo_v1 --output tutorial
+python -m patent_diffusion prepare --source patstat-local --manifest tutorial/manifest.json --output tutorial/prepared
+python -m patent_diffusion validate --profile portable_v1 --families tutorial/prepared/families.parquet --edges tutorial/prepared/events.parquet --config tutorial/comparison.json
+python -m patent_diffusion compare --families tutorial/prepared/families.parquet --edges tutorial/prepared/events.parquet --config tutorial/comparison.json --output tutorial/result
+python -m patent_diffusion ui --workdir local-ui
 ```
 
-## What it measures
+For a supplied wheel, replace the source installation command with `python -m pip install --no-deps path/to/patent_diffusion_lab-1.0.0-py3-none-any.whl`. Installation requires the dependencies; analysis itself is offline. Use a new output directory for each execution. No automatic resume or overwrite is supported.
 
-| Code | Milestone | Event rule |
-|---|---|---|
-| H1 | Citation-network entry | First citation from an external DOCDB family |
-| H3 | First cross-field arrival | First citation into a non-focal WIPO35 field |
-| H4 | Receiving-field establishment | Another distinct citing family reaches the same external field on a strictly later date |
-| H5 | Post-establishment new-field arrival | A previously unreached external field is first reached strictly after the earliest H4 date |
+The tutorial creates six **synthetic** relational tables and processes them through the actual local PATSTAT adapter. It has 320 focal families, 1,004 canonical citation events and 62 zero-citation families. Its four-entry IPC mapping is artificial and must never be used for real classification. The default is **smoke**, with no inferential claim. Change `execution.mode` to `formal` in the configuration before executing a new study; formal precision budgets are immutable.
 
-H2 is the historical label for first-citation timing, not a fifth milestone.
-The milestones are nested cumulative outcomes, not independent state transitions.
-The reference preserves citation counts and dates while resampling whole WIPO35
-field sets. Residual contrasts are descriptive, not causal or mediation estimates.
+Read `report.html`, `results.json`, `method_contract.json`, `run.json` and `output_manifest.json`. `COMPLETED_WITH_LIMITATIONS` means at least one method cannot provide valid inference or precision; it is not full success. CLI exit 0 means processing completed, including limitations; FAILED exits 2. Inspect module statuses when interpreting a report.
 
-## Try it with synthetic data
+## Supported scope
 
-```sh
-git clone https://github.com/xzli0606-lgtm/patent-diffusion-lab.git
-cd patent-diffusion-lab
-```
+- DOCDB simple families, WIPO35, two researcher-defined groups, exact 1:1 matching without replacement within declared cells including focal field; complete calendar-year windows from 1 to 5 years.
+- Standard CSV/Parquet input or **local PATSTAT export** preparation. No database login, remote extraction or automatic source access.
+- H1 first external-family citation; H3 first external-field arrival; H4 a second distinct family in the same external field on a strictly later day; H5 a previously unreached field first reached strictly after earliest H4. These are observable citation events, not adoption or causal mechanisms.
+- Pair-stratified conditional OR and Cox timing, with effective-cluster and estimability guards; counts and descriptive rates remain available when inference is unsupported.
+- Five-fold pair cross-fitting, same-field donor fallback, whole-field-set sampling, prespecified precision, matching-cell bootstrap, and fixed-support donor-reweighting sensitivity. See the method contract for interpretation and limitations.
 
-Download or clone this repository, enter its directory, then use a Python 3.12
-environment. On Windows, `py -3.12 -m venv .venv` creates one; on Linux/macOS use
-`python3.12 -m venv .venv`. Activate that environment before these commands:
+The browser uploads local files, imports/exports configuration, runs the same CLI/core, shows progress, cancels processing and downloads summary reports. The PATSTAT preparation step uses the CLI. Default downloads omit family/event tables. Source declarations and aggregate results can still contain sensitive information; users determine sharing rights.
 
-```sh
-python -m pip install -e .
-python -m patent_diffusion demo --output outputs/demo
-```
+## Paper reproduction
 
-The demo generates **400 artificial matched pairs** locally and runs 1-, 3-, and
-5-year windows with the same main algorithms. It requires no account, API key,
-PATSTAT connection, or source-study data. Installed dependencies are required;
-Numba compilation makes the first run slower. The default demo uses 50 reference
-draws and 200 bootstrap draws and is a software check, not research evidence.
+Follow [Paper reproduction](docs/REPRODUCTION.md) to calculate the study results from the paired input archives. The numerical reference is read only by the subsequent verification command. The original analysis settings and seeds are preserved.
 
-Read `outputs/demo/results/report.md` and `outputs/demo/results/run.json`.
-Synthetic results are labelled and are not compared with manuscript values.
-Choose a new output directory each time: existing outputs are never overwritten.
+Earlier generic comparison configurations remain available through `compare --profile legacy_v0_2`. Use `portable_v1` for new standard-input studies. The statistical differences between workflows, including donor reweighting, are documented in the [method contract](docs/PORTABLE_V1_METHODS.md).
 
-## Analyze your own preprocessed data
-
-Prepare the two Parquet tables described in [the schema](docs/INPUT_SCHEMA.md).
-Matching, AI labelling, family consolidation and source-data acquisition must
-already be complete.
+## Development and reproducibility
 
 ```sh
-patent-diffusion validate --families data/families.parquet --edges data/edges.parquet
-patent-diffusion analyze --families data/families.parquet --edges data/edges.parquet --output outputs/my-run --pairs 10000 --smoke
-```
-
-The interface reads local files and writes a new output folder. It does not contact
-patent databases. **The complete input tables are loaded into memory before the
-pair sample is selected**; `--pairs` is not an input-memory limit. Keep real-data
-runs local and begin with a suitably prepared, classification-checked input.
-
-Omit `--smoke` for 2,000–10,000 reference draws subject to the frozen MCSE rule,
-and 2,000 pair-bootstrap draws. This is more expensive and still does not execute
-all manuscript sensitivities. The cutoff is fixed at **2026-06-30**; this version
-is intentionally specific to the study's complete Gregorian-year windows.
-
-## Outputs and interpretation
-
-- `1Y.json`, `3Y.json`, `5Y.json`: matched incidence estimates, Cox diagnostics,
-  field counts, reference support, precision and manuscript comparisons.
-- `run.json`: input hashes, package/Python/dependency versions, sampling and
-  reference seeds, contract hash, six-test Holm adjustment, and all windows.
-- `report.md`: readable matched comparisons and reference residuals.
-
-See [the output guide](docs/OUTPUTS.md). Non-estimable piecewise diagnostics are
-explicitly marked. Very small or perfectly separated samples can have no finite
-main estimate; the program stops with an explanation. Smoke completion is not a
-formal inference or full-cohort replication pass.
-
-## Development
-
-```sh
-python -m pip install -e ".[dev]"
 python -m unittest discover -s tests -v
 python -m build
-python -m twine check dist/*
 python tools/check_release.py
+python -m twine check dist/*
 ```
 
-GitHub Actions is configured to test Python 3.12 on Windows and Ubuntu. Local
-verification and hosted CI are different: a configured workflow is not a hosted
-passing badge. See [contribution guidance](CONTRIBUTING.md).
-
-## Methods, provenance and citation
-
-[Methods and implementation coverage](docs/METHODS.md) explain the exact H4/H5
-boundaries and reference support rules. [Reproduction differences](docs/REPRODUCTION.md)
-separate historical audits from new demo runs. `PROVENANCE.json` records source
-function names and hashes; [ANALYSIS_DECISIONS.md](ANALYSIS_DECISIONS.md) records
-project decisions. Use [CITATION.cff](CITATION.cff) for software citation; no paper
-DOI or public release URL is asserted until assigned.
-
-## License and data
-
-Code, project documentation and the synthetic generator use **Apache-2.0**;
-see [LICENSE](LICENSE) and [NOTICE](NOTICE). Third-party dependencies keep their
-licenses. No PATSTAT database, real study sample, manuscript, credential or
-private result is included. Users obtain and license their data separately.
-[Data policy](DATA_POLICY.md) explains the boundary.
+See [Result interpretation](docs/VALIDATION_V1.md) for status codes, precision requirements and reproducibility records. Researchers supply their own authorised local records; see the [data policy](DATA_POLICY.md) and [source requirements](docs/DISTRIBUTION_REVIEW.md). Synthetic tutorial data are generated by the package. Use [CITATION.cff](CITATION.cff) to cite the software.

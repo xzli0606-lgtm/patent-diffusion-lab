@@ -22,11 +22,19 @@ def main():
     compare = sub.add_parser('compare', help='Compare two named country/technology groups using an explicit JSON configuration')
     for name in ('families','edges','config','output'):
         compare.add_argument('--'+name,type=Path,required=True)
+    compare.add_argument('--profile',choices=['portable_v1','legacy_v0_2'],default='portable_v1')
+    compare.add_argument('--include-data',action='store_true',help='Include sensitive family/event tables in this local output')
+    prep=sub.add_parser('prepare',help='Prepare standard tables from local PATSTAT exports')
+    prep.add_argument('--source',choices=['patstat-local'],required=True)
+    prep.add_argument('--manifest',type=Path,required=True)
+    prep.add_argument('--output',type=Path,required=True)
     sub.add_parser('reproduce',help='Full study execution from both reviewer bundles; use reproduce --help')
     sub.add_parser('ui',help='Open a local-only comparison interface; use ui --help')
     demo = sub.add_parser("demo", help="Generate 400 synthetic pairs and run all three windows in smoke mode")
     demo.add_argument("--output", type=Path, required=True, help="New directory for synthetic inputs and results")
     validate = sub.add_parser("validate", help="Check preprocessed tables and classification gates without fitting models")
+    validate.add_argument('--profile',choices=['paper_v4_20261012','portable_v1'],default='paper_v4_20261012')
+    validate.add_argument('--config',type=Path)
     analyze = sub.add_parser("analyze", help="Analyze preprocessed family and citation-edge Parquet files")
     for command in (validate, analyze):
         command.add_argument("--families", type=Path, required=True)
@@ -39,13 +47,28 @@ def main():
     analyze.add_argument("--smoke", action="store_true", help="At most 50 simulations and 200 bootstrap draws; diagnostics only")
     args = parser.parse_args()
     try:
+        if args.command == 'prepare':
+            from .prepare import run as prepare_run
+            print(json.dumps(prepare_run(args.manifest,args.output),ensure_ascii=False))
+            return
         if args.command == 'compare':
-            from .compare import run as compare_run
-            compare_run(args.families,args.edges,args.config,args.output)
-            print(json.dumps({'status':'COMPUTED','output':str(args.output.resolve())}))
+            if args.profile == 'legacy_v0_2':
+                from .compare import run as compare_run
+                compare_run(args.families,args.edges,args.config,args.output)
+                print(json.dumps({'status':'COMPUTED','profile':'legacy_v0_2','warning':'Historical compatibility; not portable_v1 inference'}))
+            else:
+                from .portable import run as compare_run
+                result=compare_run(args.families,args.edges,args.config,args.output,args.include_data)
+                print(json.dumps({'status':result['status'],'output':str(args.output.resolve())}))
+                if result['status']=='FAILED': parser.exit(2,'Portable analysis failed; inspect validation_report.json\n')
             return
         from .pipeline import run, validate_inputs
         if args.command == "validate":
+            if args.profile == 'portable_v1':
+                if not args.config: raise ValueError('portable_v1 validation requires --config')
+                from .portable import validate as portable_validate
+                print(json.dumps(portable_validate(args.families,args.edges,args.config),ensure_ascii=False,allow_nan=False))
+                return
             print(json.dumps(validate_inputs(args.families, args.edges), indent=2))
             return
         if args.command == "demo":

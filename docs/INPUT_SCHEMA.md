@@ -1,3 +1,5 @@
+> Historical paper/0.2 schema. Use [portable_v1 standard inputs](INPUT_SCHEMA_V1.md) for the current default.
+
 # Input schema
 
 The canonical paper profile reads **Parquet**. The generic `compare` interface also reads CSV; see [portable schema](PORTABLE_GUIDE.md). It expects the study's preprocessed matched

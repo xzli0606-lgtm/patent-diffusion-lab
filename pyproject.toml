@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "patent-diffusion-lab"
-version = "0.2.0"
+version = "1.0.0"
 description = "Reproducible matched patent-family citation milestones and opportunity references"
 readme = "README.md"
 license = "Apache-2.0"
@@ -12,7 +12,6 @@ license-files = ["LICENSE", "NOTICE"]
 authors = [{name = "姜红丙"}, {name = "李旭泽"}]
 keywords = ["patents", "citation-diffusion", "scientometrics", "reproducibility"]
 classifiers = [
-  "Development Status :: 3 - Alpha",
   "Environment :: Console",
   "Intended Audience :: Science/Research",
   "Programming Language :: Python :: 3.12",
@@ -35,4 +34,4 @@ patent-diffusion = "patent_diffusion.cli:main"
 include = ["patent_diffusion*"]
 
 [tool.setuptools.package-data]
-patent_diffusion = ["reference_contract.json", "supplement_provenance.json"]
+patent_diffusion = ["reference_contract.json", "supplement_provenance.json", "portable_contract.json", "portable_config.schema.json"]

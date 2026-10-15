@@ -1,0 +1,358 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "portable_v1"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {},
+      "additionalProperties": true
+    },
+    "inputs": {
+      "type": "object",
+      "properties": {
+        "family_columns": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "edge_columns": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "classification_system": {
+          "type": "string"
+        },
+        "id_policy": {
+          "type": "string"
+        },
+        "families": {
+          "type": "string"
+        },
+        "edges": {
+          "type": "string"
+        },
+        "source_manifest": {
+          "type": "string"
+        },
+        "classification_mapping_manifest": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "comparison": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "groups": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "uniqueItems": true
+        },
+        "group_definition": {
+          "type": "string"
+        },
+        "country_basis": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cutoff": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "windows_years": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "observation_origin": {
+          "type": "string"
+        },
+        "grant_office_scope": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "group_definition",
+        "grant_office_scope",
+        "cutoff"
+      ]
+    },
+    "matching": {
+      "type": "object",
+      "properties": {
+        "method": {
+          "type": "string"
+        },
+        "columns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "cluster_columns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "seed": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    },
+    "quality": {
+      "type": "object",
+      "properties": {
+        "classified_edge_coverage_min": {
+          "type": "number"
+        },
+        "absolute_missing_rate_gap_max_exclusive": {
+          "type": "number"
+        },
+        "minimum_effective_clusters_for_inference": {
+          "type": "integer"
+        },
+        "failed_field_quality_action": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "reference": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "main_pool": {
+          "type": "string"
+        },
+        "crossfit_folds": {
+          "type": "integer"
+        },
+        "fold_unit": {
+          "type": "string"
+        },
+        "fold_seed": {
+          "type": "integer"
+        },
+        "lag_bands_calendar_years": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "calendar_block_years": {
+          "type": "integer"
+        },
+        "calendar_anchor_year": {
+          "type": "integer"
+        },
+        "grant_cohort_block_years": {
+          "type": "integer"
+        },
+        "grant_cohort_anchor_year": {
+          "type": "integer"
+        },
+        "minimum_donor_edges": {
+          "type": "integer"
+        },
+        "minimum_distinct_citing_families": {
+          "type": "integer"
+        },
+        "fallback": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "unsupported_action": {
+          "type": "string"
+        },
+        "cross_field_pooling": {
+          "type": "boolean"
+        },
+        "simulation": {
+          "type": "object",
+          "properties": {
+            "initial": {
+              "type": "integer"
+            },
+            "increment": {
+              "type": "integer"
+            },
+            "maximum": {
+              "type": "integer"
+            },
+            "mcse_target_pp": {
+              "type": "number"
+            },
+            "precision_endpoints": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "seed_base": {
+              "type": "integer"
+            }
+          },
+          "additionalProperties": false
+        },
+        "inference": {
+          "type": "object",
+          "properties": {
+            "bootstrap_unit": {
+              "type": "string"
+            },
+            "bootstrap_replicates": {
+              "type": "integer"
+            },
+            "bootstrap_seed": {
+              "type": "integer"
+            },
+            "primary_interval": {
+              "type": "string"
+            },
+            "p_method": {
+              "type": "string"
+            },
+            "multiplicity": {
+              "type": "string"
+            },
+            "undefined_test_policy": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        "sensitivities": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reweighted_pool": {
+          "type": "object",
+          "properties": {
+            "bootstrap_replicates": {
+              "type": "integer"
+            },
+            "bootstrap_seed": {
+              "type": "integer"
+            },
+            "field_seed_base": {
+              "type": "integer"
+            },
+            "zero_weight_pool_action": {
+              "type": "string"
+            },
+            "inner_simulation": {
+              "type": "object",
+              "properties": {
+                "initial": {
+                  "type": "integer"
+                },
+                "increment": {
+                  "type": "integer"
+                },
+                "maximum": {
+                  "type": "integer"
+                },
+                "mcse_target_pp": {
+                  "type": "number"
+                },
+                "precision_endpoints": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "failure_action": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        },
+        "report_variant_intersection_support": {
+          "type": "boolean"
+        },
+        "report_reproduced_share": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "execution": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "enum": [
+            "formal",
+            "smoke"
+          ]
+        },
+        "offline_analysis": {
+          "type": "boolean"
+        },
+        "new_output_directory_only": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "outputs": {
+      "type": "object",
+      "properties": {
+        "include_input_data_in_default_download": {
+          "type": "boolean"
+        },
+        "record_input_output_method_and_environment_hashes": {
+          "type": "boolean"
+        },
+        "strict_json_no_nan_or_infinity": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "portable_v1 configuration syntax",
+  "description": "Partial overrides allowed. The bundled resolve() additionally enforces immutable policies and cross-field constraints.",
+  "required": [
+    "schema_version",
+    "comparison"
+  ]
+}

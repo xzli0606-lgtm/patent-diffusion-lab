@@ -37,6 +37,7 @@ class LocalUITests(unittest.TestCase):
                     req=Request(base+'/upload?name='+name+'&ext=csv',data=frame.to_csv(index=False).encode(),headers={'X-Local-Token':token})
                     paths[name]=json.loads(urlopen(req).read())['path']
                 paths['config']={'comparison_type':'technology','groups':['A','B'],'group_definition':'Synthetic UI test','cutoff':'2026-06-30','windows':[1]}
+                paths['profile']='legacy_v0_2'
                 urlopen(Request(base+'/run',data=json.dumps(paths).encode(),headers={'X-Local-Token':token})).close()
                 end=time.monotonic()+60
                 while time.monotonic()<end:

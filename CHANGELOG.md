@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.0
+
+- Add standard-input comparison with a versioned portable method contract.
+- Prepare local PATSTAT relational exports with source lineage and classification mapping.
+- Add cross-fitted opportunity references and prespecified sensitivity analyses.
+- Report estimability, classification coverage, donor support and simulation precision.
+- Extend the local browser interface with configuration exchange, progress and cancellation.
+- Include synthetic relational tutorials and bilingual documentation.
+- Preserve the paper reproduction workflow and frozen analysis settings.
+
 ## 0.2.0
 
 - Add complete-bundle execution, stage receipts and resumption checks.
@@ -19,6 +29,3 @@
 - Validate null pair IDs, classification mask bounds/integrality, flags and dates.
 - Report non-estimable piecewise fits encountered in the synthetic end-to-end run.
 - Add regression/CLI tests, distribution checks and Windows/Ubuntu CI configuration.
-
-This entry describes local implementation; a GitHub release and hosted CI results
-are not asserted until actually published and run.

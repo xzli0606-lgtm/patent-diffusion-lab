@@ -1,3 +1,5 @@
+> Historical 0.2/paper documentation. For the current default use [portable_v1](PORTABLE_V1_METHODS.md) and [preparation](PREPARE_V1.md). Old comparison commands require `--profile legacy_v0_2`; historical outputs are not new portable validation.
+
 # Methods and implementation coverage
 
 ## Operational definitions

@@ -1,3 +1,5 @@
+> Historical 0.2/paper documentation. For the current default use [portable_v1](PORTABLE_V1_METHODS.md) and [preparation](PREPARE_V1.md). Old comparison commands require `--profile legacy_v0_2`; historical outputs are not new portable validation.
+
 # Two-group comparison / 两组专利比较
 
 Use Python 3.12 and install the exact dependencies in `requirements.lock`.

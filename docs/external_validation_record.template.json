@@ -1,0 +1,23 @@
+{
+  "schema_version": "external_validation_v1",
+  "status": "NOT_EXECUTED",
+  "evidence_level": null,
+  "executor_type": null,
+  "executor_consented_identifier": null,
+  "independent_of_development": null,
+  "protocol_frozen_before_effects": null,
+  "protocol_sha256": null,
+  "data_permission_and_scope": null,
+  "dataset_kind": null,
+  "input_hashes": {},
+  "package_sha256": null,
+  "version": null,
+  "os_python_dependencies": {},
+  "commands_and_logs": [],
+  "elapsed_seconds": null,
+  "author_help_requests": [],
+  "errors_and_interventions": [],
+  "denominator_and_hand_audits": [],
+  "output_hashes": {},
+  "limitations": ["Template only. No executor, permission, successful result, DOI or public data link has been established."]
+}
